@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</compiled_snapshot>
         <display_text/>
         <flow display_value="coe global pull user and role">e3afadc0dba16300e1e8b701ef96199e</flow>
         <order>1</order>
@@ -13,17 +13,31 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-10-29 17:11:18</sys_created_on>
         <sys_id>50dbb5c4dbe16300e1e8b701ef961966</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_instance_50dbb5c4dbe16300e1e8b701ef961966</sys_update_name>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-10-30 18:56:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:03:25</sys_updated_on>
         <ui_id>221e4b55-fc39-4e41-8415-65e242dd4d71</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=50dbb5c4dbe16300e1e8b701ef961966"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>50dbb5c4dbe16300e1e8b701ef961966</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-10-30 22:01:28</sys_created_on>
+        <sys_id>64d708acdbada300e1e8b701ef96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:01:28</sys_updated_on>
+        <value>x_snc_coe_global_r_coe_global_instances</value>
+        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>50dbb5c4dbe16300e1e8b701ef961966</document_key>
