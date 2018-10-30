@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="coe global roles" max_length="40" name="x_snc_coe_global_r_coe_global_roles" type="collection">
+        <element label="role" max_length="40" name="role" type="string"/>
+        <element label="user" max_length="32" name="user" reference="x_snc_coe_global_r_coe_global_users" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

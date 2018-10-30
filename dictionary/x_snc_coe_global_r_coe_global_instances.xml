@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="coe global instances" max_length="40" name="x_snc_coe_global_r_coe_global_instances" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="country" max_length="40" name="country" type="string"/>
+        <element label="CredentialAlias" max_length="40" name="credentialalias" type="string"/>
+        <element label="environment" max_length="40" name="environment" type="string"/>
+        <element label="instancename" max_length="40" name="instancename" type="string"/>
+    </element>
+</database>
