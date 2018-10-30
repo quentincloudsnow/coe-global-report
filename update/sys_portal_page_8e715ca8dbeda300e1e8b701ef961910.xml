@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2018-10-30 23:38:13">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-10-30 22:43:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e715ca8dbeda300e1e8b701ef961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_portal_page_8e715ca8dbeda300e1e8b701ef961910</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:43:37</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_23</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">8e715ca8dbeda300e1e8b701ef961910</page>
+                <summary>COE - Total ITIL Users WW.</summary>
+                <sys_created_by>quentin.carton</sys_created_by>
+                <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                <sys_id>491418acdbeda300e1e8b701ef96192a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>quentin.carton</sys_updated_by>
+                <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">82715ca8dbeda300e1e8b701ef961912</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_widget>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>851418acdbeda300e1e8b701ef96192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_name>82715ca8dbeda300e1e8b701ef961912</sys_name>
+                        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_851418acdbeda300e1e8b701ef96192c</sys_update_name>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>091418acdbeda300e1e8b701ef96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>451418acdbeda300e1e8b701ef96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>4d1418acdbeda300e1e8b701ef96192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>21a310acdbeda300e1e8b701ef961951</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>811418acdbeda300e1e8b701ef96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>8d1418acdbeda300e1e8b701ef96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>COE - Total ITIL Users WW.</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-30 18:55:02">491418acdbeda300e1e8b701ef96192a</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:55:02</sys_created_on>
+                        <sys_id>c91418acdbeda300e1e8b701ef96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">8e715ca8dbeda300e1e8b701ef961910</page>
+                <summary>Coe usage by country ITIL Role</summary>
+                <sys_created_by>quentin.carton</sys_created_by>
+                <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                <sys_id>5c8110e8dbeda300e1e8b701ef9619ee</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>quentin.carton</sys_updated_by>
+                <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">82715ca8dbeda300e1e8b701ef961912</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_widget>
+                        <posx>0</posx>
+                        <posy>20</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>ec8110e8dbeda300e1e8b701ef9619f1</sys_id>
+                        <sys_mod_count>2</sys_mod_count>
+                        <sys_name>82715ca8dbeda300e1e8b701ef961912</sys_name>
+                        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_ec8110e8dbeda300e1e8b701ef9619f1</sys_update_name>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>2c8110e8dbeda300e1e8b701ef9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>688110e8dbeda300e1e8b701ef9619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>d6a5f3d4db6da300e1e8b701ef9619cb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>688110e8dbeda300e1e8b701ef9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>a48110e8dbeda300e1e8b701ef9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>e08110e8dbeda300e1e8b701ef9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-30 18:43:47">5c8110e8dbeda300e1e8b701ef9619ee</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:43:47</sys_created_on>
+                        <sys_id>ec8110e8dbeda300e1e8b701ef9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:43:47</sys_updated_on>
+                        <value>Coe usage by country ITIL Role</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">8e715ca8dbeda300e1e8b701ef961910</page>
+                <summary>COE - Nb users with Admin roles by Country</summary>
+                <sys_created_by>quentin.carton</sys_created_by>
+                <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                <sys_id>d70490acdbeda300e1e8b701ef9619b5</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>quentin.carton</sys_updated_by>
+                <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">82715ca8dbeda300e1e8b701ef961912</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_widget>
+                        <posx>0</posx>
+                        <posy>10</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>130418acdbeda300e1e8b701ef96191d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_name>82715ca8dbeda300e1e8b701ef961912</sys_name>
+                        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_130418acdbeda300e1e8b701ef96191d</sys_update_name>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:55:02</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>130418acdbeda300e1e8b701ef96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>COE - Nb users with Admin roles by Country</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>170418acdbeda300e1e8b701ef96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>5f0418acdbeda300e1e8b701ef96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>9b0418acdbeda300e1e8b701ef96191a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>c5c2d82cdbeda300e1e8b701ef961950</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>9b0418acdbeda300e1e8b701ef96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-10-30 18:54:54">d70490acdbeda300e1e8b701ef9619b5</portal_section>
+                        <sys_created_by>quentin.carton</sys_created_by>
+                        <sys_created_on>2018-10-30 22:54:54</sys_created_on>
+                        <sys_id>d70418acdbeda300e1e8b701ef96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>quentin.carton</sys_updated_by>
+                        <sys_updated_on>2018-10-30 22:54:54</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

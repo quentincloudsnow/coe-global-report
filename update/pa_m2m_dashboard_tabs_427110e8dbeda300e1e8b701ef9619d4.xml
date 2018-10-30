@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="COE Global usage">1361dca8dbeda300e1e8b701ef9619d3</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-10-30 22:43:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>427110e8dbeda300e1e8b701ef9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1361dca8dbeda300e1e8b701ef9619d3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_427110e8dbeda300e1e8b701ef9619d4</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:43:38</sys_updated_on>
+        <tab display_value="New Tab">ce7110e8dbeda300e1e8b701ef9619d1</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

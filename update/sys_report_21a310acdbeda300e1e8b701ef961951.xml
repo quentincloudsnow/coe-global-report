@@ -32,15 +32,14 @@
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
-        <display_grid>true</display_grid>
+        <display_grid>false</display_grid>
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>country</field>
+        <field/>
         <field_list>number,short_description,cmdb_ci,category,subcategory,priority,state,assigned_to,assignment_group</field_list>
-        <filter table="x_snc_coe_global_r_coe_global_users">rolesLIKEITIL^lastloginRELATIVEGE@year@ago@10<item endquery="false" field="roles" goto="false" newquery="false" operator="LIKE" or="false" value="ITIL"/>
-            <item endquery="false" field="lastlogin" goto="false" newquery="false" operator="RELATIVE" or="false" value="GE@year@ago@10"/>
+        <filter table="x_snc_coe_global_r_coe_global_users">rolesLIKEITIL<item endquery="false" field="roles" goto="false" newquery="false" operator="LIKE" or="false" value="ITIL"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -48,7 +47,7 @@
         <group/>
         <import_table/>
         <interval>year</interval>
-        <is_published>true</is_published>
+        <is_published>false</is_published>
         <is_scheduled>false</is_scheduled>
         <legend_background_color/>
         <legend_border_color/>
@@ -69,7 +68,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles>public</roles>
+        <roles/>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -94,23 +93,23 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-10-30 20:42:08</sys_created_on>
-        <sys_id>d6a5f3d4db6da300e1e8b701ef9619cb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>COE - Usage by country ITIL Role last 30 days</sys_name>
+        <sys_created_on>2018-10-30 22:53:09</sys_created_on>
+        <sys_id>21a310acdbeda300e1e8b701ef961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COE - Total ITIL Users WW.</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_update_name>sys_report_d6a5f3d4db6da300e1e8b701ef9619cb</sys_update_name>
+        <sys_update_name>sys_report_21a310acdbeda300e1e8b701ef961951</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-10-30 22:57:42</sys_updated_on>
+        <sys_updated_on>2018-10-30 22:53:09</sys_updated_on>
         <table>x_snc_coe_global_r_coe_global_users</table>
-        <title>COE - Usage by country ITIL Role last 30 days</title>
+        <title>COE - Total ITIL Users WW.</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>bar</type>
+        <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
