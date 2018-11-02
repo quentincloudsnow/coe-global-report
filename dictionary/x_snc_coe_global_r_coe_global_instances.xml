@@ -4,7 +4,7 @@
         <element label="country" max_length="40" name="country" type="string"/>
         <element label="CredentialAlias" max_length="40" name="credentialalias" type="string"/>
         <element label="environment" max_length="40" name="environment" type="string"/>
-        <element label="instancename" max_length="40" name="instancename" type="string"/>
-        <element label="Rolestoquery" max_length="500" name="rolestoquery" type="string"/>
+        <element display="true" label="Instancename" max_length="40" name="instancename" type="string"/>
+        <element label="Roles to Query" max_length="500" name="rolestoquery" reference="x_snc_coe_global_r_coeroles" reference_qual="javascript:'instance='+current.sys_id;" type="glide_list" use_reference_qualifier="advanced"/>
     </element>
 </database>

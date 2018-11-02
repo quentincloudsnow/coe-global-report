@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="coe global get sysid users with roles">ed22f155db69a700e1e8b701ef96196c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="coe global get sysid users with roles">ed22f155db69a700e1e8b701ef96196c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="coe global pull user and role v2">f9618e19dba9a700e1e8b701ef96195e</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>1fbe5885-559e-4ca5-9fa2-f96244d8dae0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:02:10</sys_created_on>
+        <sys_id>2f94c61ddba9a700e1e8b701ef9619ff</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_instance_2f94c61ddba9a700e1e8b701ef9619ff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:44:18</sys_updated_on>
+        <ui_id>d931a1b4-c0a5-4480-8989-9f9acd87cc9f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f94c61ddba9a700e1e8b701ef9619ff"/>
+    <sys_element_mapping action="delete_multiple" query="id=2f94c61ddba9a700e1e8b701ef9619ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancecountry</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:02:10</sys_created_on>
+        <sys_id>2f940a1ddba9a700e1e8b701ef961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:02:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4522b155db69a700e1e8b701ef9619af</table>
+        <value>{{3549b55b-1638-4603-a07a-3978d10b2fb6.item.country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancecountry</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:42:44</sys_created_on>
+        <sys_id>82ed4ed9dbe9a700e1e8b701ef961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:42:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ed22f155db69a700e1e8b701ef96196c</table>
+        <value>{{3549b55b-1638-4603-a07a-3978d10b2fb6.item.country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instanceurl</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:42:44</sys_created_on>
+        <sys_id>0eed4ed9dbe9a700e1e8b701ef961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:42:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ed22f155db69a700e1e8b701ef96196c</table>
+        <value>{{3549b55b-1638-4603-a07a-3978d10b2fb6.item.instancename}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instanceurl</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:02:10</sys_created_on>
+        <sys_id>b7940a1ddba9a700e1e8b701ef961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:02:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4522b155db69a700e1e8b701ef9619af</table>
+        <value>{{3549b55b-1638-4603-a07a-3978d10b2fb6.item.instancename}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>role</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:42:44</sys_created_on>
+        <sys_id>4aed4ed9dbe9a700e1e8b701ef961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:42:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ed22f155db69a700e1e8b701ef96196c</table>
+        <value>{{1fbe5885-559e-4ca5-9fa2-f96244d8dae0.item.role}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>role</field>
+        <id>2f94c61ddba9a700e1e8b701ef9619ff</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 15:02:10</sys_created_on>
+        <sys_id>f3940a1ddba9a700e1e8b701ef961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:02:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4522b155db69a700e1e8b701ef9619af</table>
+        <value>{{1fbe5885-559e-4ca5-9fa2-f96244d8dae0.item.role}}</value>
+    </sys_element_mapping>
+</record_update>

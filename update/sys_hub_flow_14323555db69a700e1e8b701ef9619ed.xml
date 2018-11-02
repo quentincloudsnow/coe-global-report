@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"9a925143-55d4-477b-86b2-d076220ef193.payload","label":"1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"0dffdcb0-4ad0-441c-82ef-ed1c7877f307.Records","label":"2➛coe global users Records","reference":"x_snc_coe_global_r_coe_global_users","reference_display":"coe global users Records","type":"records","base_type":"records"},{"name":"0dffdcb0-4ad0-441c-82ef-ed1c7877f307.Table","label":"2➛coe global users Table","reference":"x_snc_coe_global_r_coe_global_users","reference_display":"coe global users Table","type":"table_name","base_type":"table_name"},{"name":"0dffdcb0-4ad0-441c-82ef-ed1c7877f307.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"f1fdfd71-6dcf-4dce-b5b8-84b7d1fa3644.item","label":"3➛coe global users Record","reference":"x_snc_coe_global_r_coe_global_users","reference_display":"coe global users Record","type":"reference","base_type":"reference"},{"name":"e4bf8eea-3b16-4b5b-b7de-b89b472e343b.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"f1fdfd71-6dcf-4dce-b5b8-84b7d1fa3644.item.usersysid","label":"3➛coe global users Record➛userSysID","reference":"","reference_display":"userSysID","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_users","column_name":"usersysid"},{"name":"847c1693-db01-4dbb-8b07-e2a7bda81cf5.record","label":"3.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"847c1693-db01-4dbb-8b07-e2a7bda81cf5.table_name","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 13:41:40</sys_created_on>
+        <sys_id>14323555db69a700e1e8b701ef9619ed</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_flow_14323555db69a700e1e8b701ef9619ed</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 14:27:13</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=14323555db69a700e1e8b701ef9619ed"/>
+</record_update>

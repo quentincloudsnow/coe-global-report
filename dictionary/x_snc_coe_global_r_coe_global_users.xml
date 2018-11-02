@@ -8,5 +8,6 @@
         <element label="lastname" max_length="40" name="lastname" type="string"/>
         <element label="Roles" max_length="4000" name="roles" type="string"/>
         <element label="username" max_length="40" name="username" type="string"/>
+        <element label="userSysID" max_length="255" name="usersysid" type="string"/>
     </element>
 </database>

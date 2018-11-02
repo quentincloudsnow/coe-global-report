@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from>77d8e199db29a700e1e8b701ef961958</copied_from>
+        <copied_from_name>coe global get sysid users with </copied_from_name>
+        <description>Perform a REST API Call to a Remote ServiceNow instance to collect users and roles</description>
+        <internal_name>coe_global_lookup_userinfo_from_sysid</internal_name>
+        <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{action.instancecountry}}","label":"action➛instancecountry","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{action.usersysid}}","label":"action➛usersysid","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].a}}","label":"step➛Script step➛a","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].ac}}","label":"step➛Script step➛ac","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].act}}","label":"step➛Script step➛act","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].acti}}","label":"step➛Script step➛acti","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].activ}}","label":"step➛Script step➛activ","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].active}}","label":"step➛Script step➛active","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].f}}","label":"step➛Script step➛f","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].fi}}","label":"step➛Script step➛fi","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].fir}}","label":"step➛Script step➛fir","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].firs}}","label":"step➛Script step➛firs","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].first}}","label":"step➛Script step➛first","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].firstn}}","label":"step➛Script step➛firstn","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].firstna}}","label":"step➛Script step➛firstna","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].firstnam}}","label":"step➛Script step➛firstnam","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].firstname}}","label":"step➛Script step➛firstname","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].l}}","label":"step➛Script step➛l","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].la}}","label":"step➛Script step➛la","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].las}}","label":"step➛Script step➛las","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].last}}","label":"step➛Script step➛last","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastn}}","label":"step➛Script step➛lastn","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastna}}","label":"step➛Script step➛lastna","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastnam}}","label":"step➛Script step➛lastnam","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastname}}","label":"step➛Script step➛lastname","type":"step","ref":""},{"name":"{{step[57a48370-03da-4be3-acc6-b20ae985f4b4].record}}","label":"step➛Look Up Record step➛coe global users Record","type":"step","ref":"x_snc_coe_global_r_coe_global_users"},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastl}}","label":"step➛Script step➛lastl","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastlo}}","label":"step➛Script step➛lastlo","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastlog}}","label":"step➛Script step➛lastlog","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastlogi}}","label":"step➛Script step➛lastlogi","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].lastlogin}}","label":"step➛Script step➛lastlogin","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].username}}","label":"step➛Script step➛username","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>01eb4ad5dbe9a700e1e8b701ef9619fa</latest_snapshot>
+        <master_snapshot>3257bdd9db69a700e1e8b701ef9619cb</master_snapshot>
+        <name>coe global lookup userinfo from sysid</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 13:49:30</sys_created_on>
+        <sys_id>0ff379d5db69a700e1e8b701ef961910</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>coe global lookup userinfo from sysid</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0ff379d5db69a700e1e8b701ef961910</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 15:33:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ff379d5db69a700e1e8b701ef961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ff379d5db69a700e1e8b701ef961910"/>
+</record_update>

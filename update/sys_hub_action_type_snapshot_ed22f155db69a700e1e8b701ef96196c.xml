@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Perform a REST API Call to a Remote ServiceNow instance to collect users and roles</description>
+        <internal_name>coe_global_get_sysid_users_with_roles</internal_name>
+        <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{action.instancecountry}}","label":"action➛instancecountry","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>coe global get sysid users with roles</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="coe global get sysid users with roles">77d8e199db29a700e1e8b701ef961958</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 13:41:28</sys_created_on>
+        <sys_id>ed22f155db69a700e1e8b701ef96196c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>coe global get sysid users with roles</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_ed22f155db69a700e1e8b701ef96196c</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 13:41:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ed22f155db69a700e1e8b701ef96196c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ed22f155db69a700e1e8b701ef96196c"/>
+    <sys_element_mapping action="delete_multiple" query="id=ed22f155db69a700e1e8b701ef96196c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>ed22f155db69a700e1e8b701ef96196c</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-02 13:41:31</sys_created_on>
+        <sys_id>da223555db69a700e1e8b701ef961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-02 13:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ed22f155db69a700e1e8b701ef96196c</table>
+        <value>{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}</value>
+    </sys_element_mapping>
+</record_update>
