@@ -8,21 +8,21 @@
         <icon/>
         <inputs/>
         <label>Script step</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:00:58</sys_created_on>
         <sys_id>9ce8e199db29a700e1e8b701ef9619c7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_step_instance_9ce8e199db29a700e1e8b701ef9619c7</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 13:40:42</sys_updated_on>
+        <sys_updated_on>2018-11-03 21:34:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ce8e199db29a700e1e8b701ef9619c7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,9 +33,9 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:01:00</sys_created_on>
         <sys_id>6ce82599db29a700e1e8b701ef961963</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 13:40:42</sys_updated_on>
+        <sys_updated_on>2018-11-02 21:35:59</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var instance = (inputs.instanceurl);
 var role = (inputs.role);
@@ -45,10 +45,10 @@ var newTable = new GlideRecord('x_snc_coe_global_r_coe_global_users');
 newTable.initialize();
 
 var parsed = new global.JSON.parse(httpResponseBody);
-var user = parsed.result[0].user;
+//var user = parsed.result[0].user;
 //gs.info(username);
 for (var i = 0; i &lt; parsed.result.length; i++) {
-                gs.info('id: ' + parsed.result[i].user.value);
+              //  gs.info('id: ' + parsed.result[i].user.value);
                  newTable.query();
   				 newTable.roles = role;
   				 newTable.instance = instance;
@@ -93,11 +93,11 @@ for (var i = 0; i &lt; parsed.result.length; i++) {
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:01:00</sys_created_on>
         <sys_id>b8e82599db29a700e1e8b701ef961964</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 13:01:00</sys_updated_on>
+        <sys_updated_on>2018-11-03 21:34:09</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_9ce8e199db29a700e1e8b701ef9619c7</table>
-        <value>{{action.instancecountry}}</value>
+        <value>{{step[21e22a39-a1a8-42db-9048-9e7780d5160f].record.country.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>instanceurl</field>
@@ -105,11 +105,11 @@ for (var i = 0; i &lt; parsed.result.length; i++) {
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:01:00</sys_created_on>
         <sys_id>7ce82599db29a700e1e8b701ef961964</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 13:01:00</sys_updated_on>
+        <sys_updated_on>2018-11-02 21:20:35</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_9ce8e199db29a700e1e8b701ef9619c7</table>
-        <value>{{action.instanceurl}}</value>
+        <value>{{step[21e22a39-a1a8-42db-9048-9e7780d5160f].record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>response</field>

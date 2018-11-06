@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="coe global users" max_length="40" name="x_snc_coe_global_r_coe_global_users" sizeclass="5365" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="country" max_length="40" name="country" type="string"/>
+        <element label="country" max_length="40" name="country" reference="core_country" type="reference"/>
         <element label="firstname" max_length="40" name="firstname" type="string"/>
-        <element label="Instance" max_length="80" name="instance" type="string"/>
+        <element label="instance" max_length="32" name="instance" reference="x_snc_coe_global_r_coe_global_instances" type="reference"/>
         <element label="LastLogin" max_length="40" name="lastlogin" type="glide_date_time"/>
         <element label="lastname" max_length="40" name="lastname" type="string"/>
         <element label="Roles" max_length="4000" name="roles" type="string"/>
         <element label="username" max_length="40" name="username" type="string"/>
         <element label="userSysID" max_length="255" name="usersysid" type="string"/>
+        <index name="index">
+            <element name="instance"/>
+        </index>
+        <index name="index2">
+            <element name="usersysid"/>
+            <element name="instance"/>
+            <element name="roles"/>
+        </index>
     </element>
 </database>

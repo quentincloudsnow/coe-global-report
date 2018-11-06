@@ -8,21 +8,21 @@
         <icon/>
         <inputs/>
         <label>Script step</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:49:32</sys_created_on>
         <sys_id>23f379d5db69a700e1e8b701ef961960</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_step_instance_23f379d5db69a700e1e8b701ef961960</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 15:33:35</sys_updated_on>
+        <sys_updated_on>2018-11-05 13:30:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23f379d5db69a700e1e8b701ef961960"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,12 +33,12 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:49:32</sys_created_on>
         <sys_id>33f379d5db69a700e1e8b701ef96197e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 15:33:36</sys_updated_on>
+        <sys_updated_on>2018-11-02 21:45:35</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-var instance = (inputs.instanceurl);
-var instancecountry = (inputs.instancecountry);
+//var instance = (inputs.instanceurl);
+//var instancecountry = (inputs.instancecountry);
 var httpResponseBody = (inputs.response);
 
 var parsed = new global.JSON.parse(httpResponseBody);

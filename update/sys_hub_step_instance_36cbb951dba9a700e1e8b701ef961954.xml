@@ -8,21 +8,21 @@
         <inputs/>
         <inputs/>
         <label>Look Up Record step</label>
-        <order>3</order>
+        <order>4</order>
         <outputs/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 14:23:36</sys_created_on>
         <sys_id>36cbb951dba9a700e1e8b701ef961954</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Look Up Record step</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_step_instance_36cbb951dba9a700e1e8b701ef961954</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 14:23:36</sys_updated_on>
+        <sys_updated_on>2018-11-05 13:40:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=36cbb951dba9a700e1e8b701ef961954"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -46,11 +46,11 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 14:23:37</sys_created_on>
         <sys_id>f2cbb951dba9a700e1e8b701ef96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 14:23:37</sys_updated_on>
+        <sys_updated_on>2018-11-05 13:40:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value>roles={{action.role}}^usersysid={{action.usersysid}}</value>
+        <value>usersysid={{action.usersysid}}^instance.instancename={{step[de8ac73b-9a40-4e08-a4fe-d17848ebe3a9].record.instancename}}^roles={{action.role}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>lookup_table_name</field>

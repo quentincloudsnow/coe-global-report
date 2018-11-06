@@ -52,18 +52,4 @@
         <value>DeloitteRole1</value>
         <variable display_value="">a48921d9db29a700e1e8b701ef9619a0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>a7523955db69a700e1e8b701ef961967</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-02 13:42:26</sys_created_on>
-        <sys_id>f3523955db69a700e1e8b701ef96196e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 13:42:26</sys_updated_on>
-        <value>FRANCE</value>
-        <variable display_value="">bfd8e199db29a700e1e8b701ef96196f</variable>
-    </sys_variable_value>
 </record_update>

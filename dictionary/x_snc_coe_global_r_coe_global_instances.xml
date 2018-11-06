@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="coe global instances" max_length="40" name="x_snc_coe_global_r_coe_global_instances" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="country" max_length="40" name="country" type="string"/>
-        <element label="CredentialAlias" max_length="40" name="credentialalias" type="string"/>
-        <element label="environment" max_length="40" name="environment" type="string"/>
-        <element display="true" label="Instancename" max_length="40" name="instancename" type="string"/>
+        <element label="Country" mandatory="true" max_length="40" name="country" reference="core_country" type="reference"/>
+        <element label="Credential Alias" mandatory="true" max_length="40" name="credentialalias" reference="sys_alias" reference_qual="connection_type=http_connection^EQ" reference_qual_condition="connection_type=http_connection^EQ" type="reference"/>
+        <element choice="3" label="Environment" max_length="40" name="environment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="DEV" value="DEV"/>
+                <element inactive_on_update="false" label="PROD" value="PROD"/>
+                <element inactive_on_update="false" label="SUBPROD" value="SUBPROD"/>
+            </choice>
+        </element>
+        <element label="Errormsg" max_length="250" name="errormsg" read_only="true" type="string"/>
+        <element default="https://YOURINSTANCE.service-now.com" display="true" label="Instance Url" mandatory="true" max_length="70" name="instancename" type="string"/>
         <element label="Roles to Query" max_length="500" name="rolestoquery" reference="x_snc_coe_global_r_coeroles" reference_qual="javascript:'instance='+current.sys_id;" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Connection &amp; Credentials Status" max_length="40" name="status" read_only="true" type="string"/>
+        <element label="testcredentials" max_length="40" name="testcredentials" type="boolean"/>
     </element>
 </database>

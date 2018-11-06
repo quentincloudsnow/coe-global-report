@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="coe test connection">a25b7f92dba9eb00e1e8b701ef9619b0</action>
+        <cid>f5931def-4ebd-4240-9e6c-1e9acde7e134</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:54</sys_created_on>
+        <sys_id>777780a2dbe9eb00e1e8b701ef961947</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_step_instance_777780a2dbe9eb00e1e8b701ef961947</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:17:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=777780a2dbe9eb00e1e8b701ef961947"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>777780a2dbe9eb00e1e8b701ef961947</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>8c8780a2dbe9eb00e1e8b701ef961980</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:17:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	if(inputs.status_code != '204'){
+		var errorMsg = 'Error connecting to remote instance. Status code: ' + inputs.status_code;
+		if(inputs.error_message)
+			errorMsg = errorMsg + '. Message: ' + inputs.error_message;
+
+      gs.info(errorMsg);
+      //throw errorMsg;
+   }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>777780a2dbe9eb00e1e8b701ef961947</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>c88780a2dbe9eb00e1e8b701ef961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:07:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=777780a2dbe9eb00e1e8b701ef961947"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>777780a2dbe9eb00e1e8b701ef961947</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>848780a2dbe9eb00e1e8b701ef961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:07:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>777780a2dbe9eb00e1e8b701ef961947</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>0c8780a2dbe9eb00e1e8b701ef961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:07:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_777780a2dbe9eb00e1e8b701ef961947</table>
+        <value>{{step[cf6fd4b2-4ac1-4855-ab6e-e6716c879d62].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>777780a2dbe9eb00e1e8b701ef961947</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>488780a2dbe9eb00e1e8b701ef961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:07:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>777780a2dbe9eb00e1e8b701ef961947</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 03:07:55</sys_created_on>
+        <sys_id>cc8780a2dbe9eb00e1e8b701ef961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:07:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_777780a2dbe9eb00e1e8b701ef961947</table>
+        <value>{{step[cf6fd4b2-4ac1-4855-ab6e-e6716c879d62].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

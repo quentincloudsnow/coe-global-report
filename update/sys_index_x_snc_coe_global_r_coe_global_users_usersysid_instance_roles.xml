@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>usersysid,instance,roles</col_name_string>
+        <index_col_name>31dc25dddb29a700e1e8b701ef9619f1,b6f9db99db61e700e1e8b701ef9619d1,ca617390db6da300e1e8b701ef96196b</index_col_name>
+        <logical_table_name>x_snc_coe_global_r_coe_global_users</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-11-05 12:23:57</sys_created_on>
+        <sys_id>5b2d30de1369a70061e07f176144b0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_coe_global_r_coe_global_users</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_index_x_snc_coe_global_r_coe_global_users_usersysid_instance_roles</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-05 12:23:57</sys_updated_on>
+        <table display_value="coe global users" name="x_snc_coe_global_r_coe_global_users">125d2900dba16300e1e8b701ef96192b</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

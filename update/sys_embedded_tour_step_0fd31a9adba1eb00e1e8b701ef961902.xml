@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="x_snc_coe_global_r_coe_global_instances.">0fd39e9adba1eb00e1e8b701ef96194a</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[you can leave this empty for now, the Credentials alias used by the app is configured in the workflow for now]]></content>
+        <guide display_value="COE Usage Reporting">b622525adba1eb00e1e8b701ef96196c</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 4</name>
+        <options/>
+        <order>4</order>
+        <placement>bottom</placement>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-05 18:42:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fd31a9adba1eb00e1e8b701ef961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_0fd31a9adba1eb00e1e8b701ef961902</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:42:41</sys_updated_on>
+        <target/>
+        <target_ref display_value="x_snc_coe_global_r_coe_global_instances.">0fd39e9adba1eb00e1e8b701ef96194a</target_ref>
+        <title><![CDATA[Step 4]]></title>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_snc_coe_global_r_coe_global_instances.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=0fd31a9adba1eb00e1e8b701ef961902"/>
+</record_update>

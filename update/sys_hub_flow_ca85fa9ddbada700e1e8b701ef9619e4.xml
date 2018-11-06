@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>test2geteroles</internal_name>
-        <label_cache>[{"name":"251efe10-79da-4377-9a4e-9860fc6faba6.payload","label":"1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"b37473a6-db4b-41e9-8931-99d63d28c4d2.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b37473a6-db4b-41e9-8931-99d63d28c4d2.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Records","label":"1➛coe global instances Records","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances Records","type":"records","base_type":"records"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Table","label":"1➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances Table","type":"table_name","base_type":"table_name"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"d61c0b6e-9929-4fe6-aa5c-336d8ed594cf.item","label":"2➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances Record","type":"reference","base_type":"reference"},{"name":"71c159b0-299f-45d5-b75b-af272cefd602.payload","label":"2.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"d61c0b6e-9929-4fe6-aa5c-336d8ed594cf.item.instancename","label":"2➛coe global instances Record➛Instancename","reference":"","reference_display":"Instancename","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
-        <name>test2geteroles</name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"Created_1.current.status","label":"Trigger➛coe global trigger Record➛Status","reference":"","reference_display":"Status","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_trigger","column_name":"status"},{"name":"c0a86132-576d-44c7-8425-8ed627edb74c.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"c0a86132-576d-44c7-8425-8ed627edb74c.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"251efe10-79da-4377-9a4e-9860fc6faba6.payload","label":"1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"b37473a6-db4b-41e9-8931-99d63d28c4d2.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b37473a6-db4b-41e9-8931-99d63d28c4d2.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Records","label":"2➛coe global instances Records","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"records","base_type":"records"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Table","label":"2➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"table_name","base_type":"table_name"},{"name":"6ac6aa96-a1e4-439b-b623-12f072a540b2.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"d61c0b6e-9929-4fe6-aa5c-336d8ed594cf.item","label":"3➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"71c159b0-299f-45d5-b75b-af272cefd602.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"d61c0b6e-9929-4fe6-aa5c-336d8ed594cf.item.instancename","label":"3➛coe global instances Record➛Instancename","reference":"","reference_display":"Instancename","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"3b46a178-00e3-4640-b958-32e65d19ca5d.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"3b46a178-00e3-4640-b958-32e65d19ca5d.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"Created_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot>edc148b51365270061e07f176144b023</latest_snapshot>
+        <master_snapshot>9eb81759db61e700e1e8b701ef9619d9</master_snapshot>
+        <name>coe  - Retrieve all roles from instances</name>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>c77fa6e9db212b00e1e8b701ef961913</remote_trigger_id>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 18:35:52</sys_created_on>
         <sys_id>ca85fa9ddbada700e1e8b701ef9619e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>test2geteroles</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>coe  - Retrieve all roles from instances</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_flow_ca85fa9ddbada700e1e8b701ef9619e4</sys_update_name>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 18:41:46</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-03 18:47:31</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=ca85fa9ddbada700e1e8b701ef9619e4"/>

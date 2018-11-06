@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="coe global trigger" language="en" table="x_snc_coe_global_r_coe_global_trigger">
+    <sys_documentation element="" label="coe_global_trigger" language="en" table="x_snc_coe_global_r_coe_global_trigger">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>coe global trigger</label>
+            <label>coe_global_trigger</label>
             <language>en</language>
             <name>x_snc_coe_global_r_coe_global_trigger</name>
-            <plural>coe global triggers</plural>
+            <plural>coe_global_triggers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>quentin.carton</sys_created_by>
-            <sys_created_on>2018-10-30 21:47:07</sys_created_on>
-            <sys_id>da84c0a8dbada300e1e8b701ef9619e0</sys_id>
+            <sys_created_on>2018-11-06 01:52:57</sys_created_on>
+            <sys_id>06563f1edb69eb00e1e8b701ef96196f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>coe global trigger</sys_name>
+            <sys_name>coe_global_trigger</sys_name>
             <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
             <sys_policy/>
             <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
             <sys_update_name>sys_documentation_x_snc_coe_global_r_coe_global_trigger__en</sys_update_name>
             <sys_updated_by>quentin.carton</sys_updated_by>
-            <sys_updated_on>2018-10-30 21:47:07</sys_updated_on>
+            <sys_updated_on>2018-11-06 01:52:57</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

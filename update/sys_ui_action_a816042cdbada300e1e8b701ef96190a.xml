@@ -6,7 +6,7 @@
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments/>
+        <comments>Clear all users and roles data and pull from instances</comments>
         <condition/>
         <form_action>false</form_action>
         <form_button>false</form_button>
@@ -14,8 +14,8 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style>primary</form_style>
-        <hint/>
+        <form_style>destructive</form_style>
+        <hint>Clear all users and roles data and pull from instances</hint>
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
         <list_banner_button>true</list_banner_button>
@@ -24,13 +24,33 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
-        <list_style>primary</list_style>
+        <list_style>destructive</list_style>
         <name>Pull Data</name>
         <onclick/>
-        <order>100</order>
-        <script><![CDATA[var newTable = new GlideRecord('x_snc_coe_global_r_coe_global_trigger');
+        <order>140</order>
+        <script><![CDATA[delCoeReportRec();   
+
+function delCoeReportRec()   
+
+
+{   
+
+
+var gr= new GlideRecord("x_snc_coe_global_r_coe_global_users");   
+
+gr.setWorkflow(false); //Don't fire Business rule,notifications   
+
+
+gr.deleteMultiple();   
+
+
+} 
+
+
+var newTable = new GlideRecord('x_snc_coe_global_r_coe_global_trigger');
 newTable.initialize();
 newTable.onoff = "true";
+newTable.action = "pull users and roles";
 newTable.insert();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -42,7 +62,7 @@ newTable.insert();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a816042cdbada300e1e8b701ef96190a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Pull Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
@@ -50,8 +70,8 @@ newTable.insert();]]></script>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_ui_action_a816042cdbada300e1e8b701ef96190a</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-10-30 21:56:50</sys_updated_on>
-        <table>x_snc_coe_global_r_coe_global_users</table>
+        <sys_updated_on>2018-11-06 00:24:09</sys_updated_on>
+        <table>x_snc_coe_global_r_coe_global_instances</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>

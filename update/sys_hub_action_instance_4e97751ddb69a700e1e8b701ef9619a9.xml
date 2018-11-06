@@ -39,34 +39,6 @@
         <value>https://empqcarton1.service-now.com</value>
         <variable display_value="">dbf379d5db69a700e1e8b701ef961913</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>4e97751ddb69a700e1e8b701ef9619a9</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-02 14:05:16</sys_created_on>
-        <sys_id>4697751ddb69a700e1e8b701ef9619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 14:05:16</sys_updated_on>
-        <value>DeloitteRole1</value>
-        <variable display_value="">dbf379d5db69a700e1e8b701ef961921</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>4e97751ddb69a700e1e8b701ef9619a9</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-02 14:05:16</sys_created_on>
-        <sys_id>8297751ddb69a700e1e8b701ef9619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-02 14:05:16</sys_updated_on>
-        <value>FRANCE</value>
-        <variable display_value="">57f379d5db69a700e1e8b701ef96191b</variable>
-    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4e97751ddb69a700e1e8b701ef9619a9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>instancecountry</field>
