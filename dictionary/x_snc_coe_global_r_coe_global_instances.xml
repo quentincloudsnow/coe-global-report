@@ -13,7 +13,7 @@
         <element label="Errormsg" max_length="250" name="errormsg" read_only="true" type="string"/>
         <element default="https://YOURINSTANCE.service-now.com" display="true" label="Instance Url" mandatory="true" max_length="70" name="instancename" type="string"/>
         <element label="Roles to Query" max_length="500" name="rolestoquery" reference="x_snc_coe_global_r_coeroles" reference_qual="javascript:'instance='+current.sys_id;" type="glide_list" use_reference_qualifier="advanced"/>
-        <element label="Connection &amp; Credentials Status" max_length="40" name="status" read_only="true" type="string"/>
+        <element label="status" max_length="40" name="status" read_only="true" type="string"/>
         <element label="testcredentials" max_length="40" name="testcredentials" type="boolean"/>
     </element>
 </database>

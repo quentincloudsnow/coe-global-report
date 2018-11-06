@@ -14,14 +14,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 03:27:22</sys_created_on>
         <sys_id>b4fb442adbe9eb00e1e8b701ef96194c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_instance_b4fb442adbe9eb00e1e8b701ef96194c</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 04:33:28</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:43:43</sys_updated_on>
         <ui_id>e049257f-683c-4834-92cc-1ba48522ca39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b4fb442adbe9eb00e1e8b701ef96194c"/>
@@ -32,10 +32,10 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 03:27:22</sys_created_on>
         <sys_id>3cfb442adbe9eb00e1e8b701ef961976</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:27:22</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:22:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_8c4d7b56dba9eb00e1e8b701ef961935</table>
-        <value>{{Updated_1.current.instancename}}</value>
+        <value>{{Created or Updated_1.current.instancename}}</value>
     </sys_element_mapping>
 </record_update>

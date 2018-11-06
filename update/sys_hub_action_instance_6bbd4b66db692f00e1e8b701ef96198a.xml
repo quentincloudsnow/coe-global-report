@@ -8,149 +8,149 @@
         <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="coe test credentials and connection">765dbb56dba9eb00e1e8b701ef961958</flow>
-        <order>3.1</order>
-        <parent_ui_id>0350f32c-be13-4c4b-8cf5-1bb8e0523af5</parent_ui_id>
+        <order>4</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>5faa44a6dbe9eb00e1e8b701ef961972</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>6bbd4b66db692f00e1e8b701ef96198a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_update_name>sys_hub_action_instance_5faa44a6dbe9eb00e1e8b701ef961972</sys_update_name>
+        <sys_update_name>sys_hub_action_instance_6bbd4b66db692f00e1e8b701ef96198a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-06 17:44:23</sys_updated_on>
-        <ui_id>e0f3129d-d7e4-495c-8e06-ca48821a8f8a</ui_id>
+        <sys_updated_on>2018-11-06 17:44:24</sys_updated_on>
+        <ui_id>d5cf6119-042a-4db1-bd96-683e5b251985</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=5faa44a6dbe9eb00e1e8b701ef961972"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6bbd4b66db692f00e1e8b701ef96198a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>5faa44a6dbe9eb00e1e8b701ef961972</document_key>
+        <document_key>6bbd4b66db692f00e1e8b701ef96198a</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>2baa44a6dbe9eb00e1e8b701ef961978</sys_id>
+        <sys_created_on>2018-11-06 17:39:54</sys_created_on>
+        <sys_id>011f0be6db692f00e1e8b701ef9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:21:48</sys_updated_on>
-        <value>x_snc_coe_global_r_coe_global_instances</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>5faa44a6dbe9eb00e1e8b701ef961972</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>67aa44a6dbe9eb00e1e8b701ef961978</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:24:19</sys_updated_on>
-        <value>status=OK^testcredentials=false</value>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>5faa44a6dbe9eb00e1e8b701ef961972</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:27:19</sys_created_on>
-        <sys_id>90fb042adbe9eb00e1e8b701ef9619bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:27:19</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:39:54</sys_updated_on>
         <value>x_snc_coe_global_r_coe_global_instances</value>
         <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>5faa44a6dbe9eb00e1e8b701ef961972</document_key>
+        <document_key>6bbd4b66db692f00e1e8b701ef96198a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:27:19</sys_created_on>
-        <sys_id>dcfb042adbe9eb00e1e8b701ef9619bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 17:29:34</sys_updated_on>
-        <value>status=OK^testcredentials=false</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=5faa44a6dbe9eb00e1e8b701ef961972"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>23aa44a6dbe9eb00e1e8b701ef961978</sys_id>
+        <sys_created_on>2018-11-06 17:39:54</sys_created_on>
+        <sys_id>4d1f0be6db692f00e1e8b701ef9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:21:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>{{Updated_1.current}}</value>
-    </sys_element_mapping>
+        <sys_updated_on>2018-11-06 17:39:54</sys_updated_on>
+        <value>testcredentials=false</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6bbd4b66db692f00e1e8b701ef96198a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>67bd4b66db692f00e1e8b701ef961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:34:03</sys_updated_on>
+        <value>x_snc_coe_global_r_coe_global_instances</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6bbd4b66db692f00e1e8b701ef96198a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>6fbd4b66db692f00e1e8b701ef961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:34:03</sys_updated_on>
+        <value>testcredentials=false</value>
+        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6bbd4b66db692f00e1e8b701ef96198a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:27:19</sys_created_on>
-        <sys_id>98fb042adbe9eb00e1e8b701ef9619bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-11-06 17:39:54</sys_created_on>
+        <sys_id>091f0be6db692f00e1e8b701ef9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 17:22:25</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:39:54</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{Created or Updated_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
+        <field>record</field>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>6faa44a6dbe9eb00e1e8b701ef961977</sys_id>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>2bbd4b66db692f00e1e8b701ef961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:21:48</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:34:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 17:39:54</sys_created_on>
+        <sys_id>451f0be6db692f00e1e8b701ef9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:39:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>63bd4b66db692f00e1e8b701ef961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:34:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
+        <field>values</field>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:27:19</sys_created_on>
-        <sys_id>d4fb042adbe9eb00e1e8b701ef9619bc</sys_id>
+        <sys_created_on>2018-11-06 17:39:54</sys_created_on>
+        <sys_id>c91f0be6db692f00e1e8b701ef9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:27:19</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:39:54</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
+        <id>6bbd4b66db692f00e1e8b701ef96198a</id>
         <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:27:19</sys_created_on>
-        <sys_id>5cfb042adbe9eb00e1e8b701ef9619bc</sys_id>
+        <sys_created_on>2018-11-06 17:34:03</sys_created_on>
+        <sys_id>ebbd4b66db692f00e1e8b701ef961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:27:19</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>5faa44a6dbe9eb00e1e8b701ef961972</id>
-        <sys_created_by>quentin.carton</sys_created_by>
-        <sys_created_on>2018-11-06 03:21:48</sys_created_on>
-        <sys_id>e3aa44a6dbe9eb00e1e8b701ef961978</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 03:21:48</sys_updated_on>
+        <sys_updated_on>2018-11-06 17:34:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
         <value/>
     </sys_element_mapping>
