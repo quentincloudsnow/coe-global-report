@@ -9,14 +9,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 14:48:10</sys_created_on>
         <sys_id>7261ce19dba9a700e1e8b701ef961920</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>record_create</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_trigger_instance_7261ce19dba9a700e1e8b701ef961920</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-05 13:48:35</sys_updated_on>
+        <sys_updated_on>2018-11-07 15:55:21</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>

@@ -8,8 +8,8 @@
         <copied_from_name>coe global get sysid users with </copied_from_name>
         <description>Perform a REST API Call to a Remote ServiceNow instance to collect users and roles</description>
         <internal_name>coe_global_pull_all_roles_from_instance</internal_name>
-        <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[250b4511-8802-462b-b00e-45e7f44a6679].record.sys_id}}","label":"step➛Look Up Record step➛coe global instances Record➛Sys ID","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>da4c3f25dba52b00e1e8b701ef9619cd</latest_snapshot>
+        <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[250b4511-8802-462b-b00e-45e7f44a6679].record.sys_id}}","label":"step➛Look Up Record step➛coe global instances Record➛Sys ID","type":"step","ref":""},{"name":"{{step[323bc8fd-badf-4621-9811-ad4a1dd241e1].record.credentialalias}}","label":"step➛Look Up Record step➛coe global instances Record➛Credential Alias","type":"step","ref":"sys_alias"}]</label_cache>
+        <latest_snapshot>23167f7e13656b0061e07f176144b0cb</latest_snapshot>
         <master_snapshot>39c5f6dddbada700e1e8b701ef9619e0</master_snapshot>
         <name> coe global pull all roles from instance</name>
         <outputs/>
@@ -19,14 +19,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 18:19:08</sys_created_on>
         <sys_id>7cb17a99dbada700e1e8b701ef9619eb</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name> coe global pull all roles from instance</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7cb17a99dbada700e1e8b701ef9619eb</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-03 18:23:34</sys_updated_on>
+        <sys_updated_on>2018-11-07 15:09:03</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_url</internal_name>
+        <label_cache>[{"name":"{{action.url}}","label":"action➛url","type":"action","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].e}}","label":"step➛Script step➛e","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].er}}","label":"step➛Script step➛er","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].err}}","label":"step➛Script step➛err","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].erro}}","label":"step➛Script step➛erro","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].error}}","label":"step➛Script step➛error","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].errorc}}","label":"step➛Script step➛errorc","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].errorco}}","label":"step➛Script step➛errorco","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].errorcod}}","label":"step➛Script step➛errorcod","type":"step","ref":""},{"name":"{{step[94301e94-45b1-4584-863b-d643dc29fe7a].errorcode}}","label":"step➛Script step➛errorcode","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>test url</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="test url">c74a9f26dba92f00e1e8b701ef961988</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 18:31:02</sys_created_on>
+        <sys_id>9aca5b66dba92f00e1e8b701ef9619cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test url</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_9aca5b66dba92f00e1e8b701ef9619cd</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 18:43:04</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9aca5b66dba92f00e1e8b701ef9619cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9aca5b66dba92f00e1e8b701ef9619cd"/>
+    <sys_element_mapping action="delete_multiple" query="id=9aca5b66dba92f00e1e8b701ef9619cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorcode</field>
+        <id>9aca5b66dba92f00e1e8b701ef9619cd</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-06 18:43:04</sys_created_on>
+        <sys_id>268d1f2adba92f00e1e8b701ef961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-06 18:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9aca5b66dba92f00e1e8b701ef9619cd</table>
+        <value>{{step[94301e94-45b1-4584-863b-d643dc29fe7a].errorcode}}</value>
+    </sys_element_mapping>
+</record_update>
