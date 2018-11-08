@@ -8,20 +8,20 @@
         <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="coe test credentials and connection">2cfb042adbe9eb00e1e8b701ef9619f7</flow>
-        <order>2.2</order>
+        <order>4.2</order>
         <parent_ui_id>1bc45621-7194-4dd5-b272-f8bc96e9fb85</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 17:43:42</sys_created_on>
         <sys_id>70ffcb2adb692f00e1e8b701ef961963</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_instance_70ffcb2adb692f00e1e8b701ef961963</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 17:43:43</sys_updated_on>
+        <sys_updated_on>2018-11-07 18:07:23</sys_updated_on>
         <ui_id>ecc89a9b-7a04-4f0c-985f-9285c7e9afc7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=70ffcb2adb692f00e1e8b701ef961963"/>

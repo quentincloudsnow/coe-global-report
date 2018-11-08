@@ -25,7 +25,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Pulling Status</name>
+        <name>Check logs</name>
         <onclick/>
         <order>160</order>
         <script><![CDATA[action.setRedirectURL('./x_snc_coe_global_r_coe_global_trigger_list.do?');]]></script>
@@ -39,15 +39,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b59d692dbe1eb00e1e8b701ef9619b1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Pulling Status</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Check logs</sys_name>
         <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_ui_action_5b59d692dbe1eb00e1e8b701ef9619b1</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-05 19:14:55</sys_updated_on>
+        <sys_updated_on>2018-11-07 18:19:28</sys_updated_on>
         <table>x_snc_coe_global_r_coe_global_instances</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

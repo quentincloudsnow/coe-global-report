@@ -7,7 +7,7 @@
         <flow display_value="coe test credentials and connection">2cfb042adbe9eb00e1e8b701ef9619f7</flow>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -15,14 +15,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 03:27:21</sys_created_on>
         <sys_id>bcfb442adbe9eb00e1e8b701ef961944</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_flow_logic_bcfb442adbe9eb00e1e8b701ef961944</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-06 17:43:44</sys_updated_on>
+        <sys_updated_on>2018-11-07 18:07:23</sys_updated_on>
         <ui_id>0350f32c-be13-4c4b-8cf5-1bb8e0523af5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="b622525adba1eb00e1e8b701ef96196c.10.xpat">26023483db61af00e1e8b701ef961953</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Click the &#39;Check logs&#39; button to check the status of the job (workflow) that is pulling the data from the remote instances.]]></content>
+        <guide display_value="COE Usage Reporting">b622525adba1eb00e1e8b701ef96196c</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 10</name>
+        <options/>
+        <order>8</order>
+        <placement>left</placement>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-07 19:30:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2023483db61af00e1e8b701ef961945</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Step 10</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_e2023483db61af00e1e8b701ef961945</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-07 19:50:54</sys_updated_on>
+        <target/>
+        <target_ref display_value="b622525adba1eb00e1e8b701ef96196c.10.xpat">26023483db61af00e1e8b701ef961953</target_ref>
+        <title><![CDATA[Step 10]]></title>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_snc_coe_global_r_coe_global_instances_list.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2023483db61af00e1e8b701ef961945"/>
+</record_update>

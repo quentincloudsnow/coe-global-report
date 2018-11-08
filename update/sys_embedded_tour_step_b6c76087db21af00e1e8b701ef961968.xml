@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="lookup.x_snc_coe_global_r_coe_global_ins">3ac7a847db21af00e1e8b701ef961982</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[
+<p>
+Select the credentials alias that will be used  to query the remote instance and pull roles and user information.<br />
+<br />
+The Service Account on the remote instance must be configured as mentioned below:<br />
+<br />
+
+</p><ol><li>Have the role role_delegator</li><li>Be configured for Web service access only</li><li>Have a role that have this table ACLs or create one, read access to: sys_user.*
+    sys_user_has_role.*
+    sys_user_role.*
+    sys_user.* </li></ol>
+]]></content>
+        <guide display_value="COE Usage Reporting">b622525adba1eb00e1e8b701ef96196c</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 4</name>
+        <options/>
+        <order>4</order>
+        <placement>right</placement>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-07 18:45:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6c76087db21af00e1e8b701ef961968</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Step 4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_b6c76087db21af00e1e8b701ef961968</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-07 19:09:40</sys_updated_on>
+        <target/>
+        <target_ref display_value="lookup.x_snc_coe_global_r_coe_global_ins">3ac7a847db21af00e1e8b701ef961982</target_ref>
+        <title><![CDATA[Step 4]]></title>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_snc_coe_global_r_coe_global_instances.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6c76087db21af00e1e8b701ef961968"/>
+</record_update>

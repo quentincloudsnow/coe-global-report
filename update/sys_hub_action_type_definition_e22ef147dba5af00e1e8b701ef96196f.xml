@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>coe_-_test</internal_name>
+        <label_cache>[{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].e}}","label":"step➛Script step➛e","type":"step","ref":""},{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].er}}","label":"step➛Script step➛er","type":"step","ref":""},{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].err}}","label":"step➛Script step➛err","type":"step","ref":""},{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].erro}}","label":"step➛Script step➛erro","type":"step","ref":""},{"name":"{{step[180fcc05-0c5b-4061-b499-68f696944f02].error}}","label":"step➛Script step➛error","type":"step","ref":""},{"name":"{{step[5bc33aa4-33ac-4fda-8bda-8e20bd3e5ad7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>9b84024fdba5af00e1e8b701ef961950</latest_snapshot>
+        <master_snapshot>9450020bdba5af00e1e8b701ef9619dd</master_snapshot>
+        <name>coe - test</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-08 01:03:20</sys_created_on>
+        <sys_id>e22ef147dba5af00e1e8b701ef96196f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>coe - test</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e22ef147dba5af00e1e8b701ef96196f</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-08 01:31:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=e22ef147dba5af00e1e8b701ef96196f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e22ef147dba5af00e1e8b701ef96196f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e22ef147dba5af00e1e8b701ef96196f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>actionoutputerror</field>
+        <id>e22ef147dba5af00e1e8b701ef96196f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-08 01:12:40</sys_created_on>
+        <sys_id>9b40020bdba5af00e1e8b701ef961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-08 01:12:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e22ef147dba5af00e1e8b701ef96196f</table>
+        <value>{{step[180fcc05-0c5b-4061-b499-68f696944f02].error}}</value>
+    </sys_element_mapping>
+</record_update>
