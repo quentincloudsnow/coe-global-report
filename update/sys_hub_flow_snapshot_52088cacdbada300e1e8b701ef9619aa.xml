@@ -12,7 +12,7 @@
         <master>true</master>
         <name>coe global pull user and role</name>
         <outputs/>
-        <parent_flow display_value="coe global pull user and role">e3afadc0dba16300e1e8b701ef96199e</parent_flow>
+        <parent_flow display_value="Deprecated - coe global pull user and role">e3afadc0dba16300e1e8b701ef96199e</parent_flow>
         <remote_trigger_id/>
         <sc_callable>false</sc_callable>
         <status>published</status>

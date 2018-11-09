@@ -7,21 +7,21 @@
         <comment>Log - Sync Started</comment>
         <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe global pull user and role v2">f9618e19dba9a700e1e8b701ef96195e</flow>
+        <flow display_value="Deprecated - coe global pull user and role v2">f9618e19dba9a700e1e8b701ef96195e</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 14:48:09</sys_created_on>
         <sys_id>9a618e19dba9a700e1e8b701ef9619af</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_instance_9a618e19dba9a700e1e8b701ef9619af</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-07 15:55:22</sys_updated_on>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-09 13:31:24</sys_updated_on>
         <ui_id>66bc60af-e6c2-4840-a47e-b440901672b4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a618e19dba9a700e1e8b701ef9619af"/>

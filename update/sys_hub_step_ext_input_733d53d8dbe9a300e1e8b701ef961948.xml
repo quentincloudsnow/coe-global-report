@@ -38,7 +38,7 @@
         <label>instancecountry</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">58d9a6c8dba56300e1e8b701ef961926</model>
+        <model/>
         <model_id>58d9a6c8dba56300e1e8b701ef961926</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_58d9a6c8dba56300e1e8b701ef961926</name>

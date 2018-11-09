@@ -40,7 +40,7 @@
         <label>actionOutputError</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="coe - test">e22ef147dba5af00e1e8b701ef96196f</model>
+        <model/>
         <model_id>e22ef147dba5af00e1e8b701ef96196f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_e22ef147dba5af00e1e8b701ef96196f</name>

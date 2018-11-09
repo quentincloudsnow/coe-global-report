@@ -12,7 +12,7 @@
         <name>coe global get sysid users with roles</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="coe global get sysid users with roles">77d8e199db29a700e1e8b701ef961958</parent_action>
+        <parent_action display_value="Deprecated - coe global get sysid users with roles">77d8e199db29a700e1e8b701ef961958</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 13:41:28</sys_created_on>

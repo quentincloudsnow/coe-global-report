@@ -38,7 +38,7 @@
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">ad308ec7dba5af00e1e8b701ef96190b</model>
+        <model/>
         <model_id>ad308ec7dba5af00e1e8b701ef96190b</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_ad308ec7dba5af00e1e8b701ef96190b</name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition table="x_snc_coe_global_r_coe_global_trigger">action=pull users and roles<item endquery="false" field="action" goto="false" newquery="false" operator="=" or="false" value="pull users and roles"/>
         </condition>
         <name/>
@@ -11,14 +11,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-02 15:42:54</sys_created_on>
         <sys_id>1cfdced9dbe9a700e1e8b701ef961953</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_flow_record_trigger_1cfdced9dbe9a700e1e8b701ef961953</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-03 21:35:55</sys_updated_on>
+        <sys_updated_on>2018-11-08 23:18:41</sys_updated_on>
         <table>x_snc_coe_global_r_coe_global_trigger</table>
     </sys_flow_record_trigger>
 </record_update>

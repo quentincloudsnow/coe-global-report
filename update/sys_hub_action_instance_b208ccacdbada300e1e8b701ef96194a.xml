@@ -3,7 +3,7 @@
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="coe global query remote instance">d5b63d00dbe16300e1e8b701ef961958</action_type>
-        <action_type_parent display_value="coe global query remote instance">9cd27dc4dba16300e1e8b701ef961909</action_type_parent>
+        <action_type_parent display_value="">9cd27dc4dba16300e1e8b701ef961909</action_type_parent>
         <comment>Pull users &amp; Roles info from REST API (sys_user table)</comment>
         <compiled_snapshot display_value="coe global query remote instance">d5b63d00dbe16300e1e8b701ef961958</compiled_snapshot>
         <display_text/>

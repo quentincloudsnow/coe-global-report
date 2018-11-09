@@ -12,7 +12,7 @@
         <name>coe global query remote instance</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="coe global query remote instance">9cd27dc4dba16300e1e8b701ef961909</parent_action>
+        <parent_action/>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-10-29 16:48:59</sys_created_on>

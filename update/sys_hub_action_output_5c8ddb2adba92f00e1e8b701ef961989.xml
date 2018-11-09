@@ -40,7 +40,7 @@
         <label>errorcode</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="test url">c74a9f26dba92f00e1e8b701ef961988</model>
+        <model/>
         <model_id>c74a9f26dba92f00e1e8b701ef961988</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c74a9f26dba92f00e1e8b701ef961988</name>

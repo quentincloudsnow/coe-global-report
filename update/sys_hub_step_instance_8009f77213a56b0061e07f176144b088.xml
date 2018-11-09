@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="coe global lookup userinfo from sysid">0ff379d5db69a700e1e8b701ef961910</action>
+        <action display_value="Deprecated - coe global lookup userinfo from sysid">0ff379d5db69a700e1e8b701ef961910</action>
         <cid>d9e40d48-8568-4bb9-9c22-d4b18bf80efc</cid>
         <extended_inputs/>
         <extended_outputs/>

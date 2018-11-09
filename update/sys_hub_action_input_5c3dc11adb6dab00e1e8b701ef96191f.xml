@@ -38,7 +38,7 @@
         <label>role</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="coe global lookup userinfo from sysid">0ff379d5db69a700e1e8b701ef961910</model>
+        <model display_value="Deprecated - coe global lookup userinfo from sysid">0ff379d5db69a700e1e8b701ef961910</model>
         <model_id>0ff379d5db69a700e1e8b701ef961910</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_0ff379d5db69a700e1e8b701ef961910</name>

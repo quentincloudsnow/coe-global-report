@@ -12,7 +12,7 @@
         <name>test url</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="test url">c74a9f26dba92f00e1e8b701ef961988</parent_action>
+        <parent_action/>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 18:31:02</sys_created_on>

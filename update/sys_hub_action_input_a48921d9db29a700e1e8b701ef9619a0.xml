@@ -38,7 +38,7 @@
         <label>role</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="coe global get sysid users with roles">77d8e199db29a700e1e8b701ef961958</model>
+        <model display_value="Deprecated - coe global get sysid users with roles">77d8e199db29a700e1e8b701ef961958</model>
         <model_id>77d8e199db29a700e1e8b701ef961958</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_77d8e199db29a700e1e8b701ef961958</name>
