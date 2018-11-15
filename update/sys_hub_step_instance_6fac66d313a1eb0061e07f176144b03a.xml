@@ -15,14 +15,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-08 23:05:03</sys_created_on>
         <sys_id>6fac66d313a1eb0061e07f176144b03a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_step_instance_6fac66d313a1eb0061e07f176144b03a</sys_update_name>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-08 23:16:25</sys_updated_on>
+        <sys_updated_on>2018-11-15 14:31:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6fac66d313a1eb0061e07f176144b03a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,23 +33,24 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-08 23:05:03</sys_created_on>
         <sys_id>33ac66d313a1eb0061e07f176144b064</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-11-08 23:16:25</sys_updated_on>
+        <sys_updated_on>2018-11-15 14:31:56</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var instance = (inputs.instanceurl);
 var role = (inputs.role);
 var instancecountry = (inputs.instancecountry);
 var httpResponseBody = (inputs.response);
 var newTable = new GlideRecord('x_snc_coe_global_r_coe_global_users');
-newTable.initialize();
+//newTable.initialize();
 
 var parsed = new global.JSON.parse(httpResponseBody);
 //var user = parsed.result[0].user;
 //gs.info(username);
 for (var i = 0; i &lt; parsed.result.length; i++) {
               //  gs.info('id: ' + parsed.result[i].user.value);
-                 newTable.query();
+  				 newTable.initialize();
+                // newTable.query();
   				 newTable.roles = role;
   				 newTable.instance = instance;
   				 newTable.country = instancecountry;
@@ -59,7 +60,15 @@ for (var i = 0; i &lt; parsed.result.length; i++) {
                  newTable.lastname = parsed.result[i]['user.last_name'];
                  newTable.lastlogin = parsed.result[i]['user.last_login_time'];
   			     newTable.active = parsed.result[i]['user.active'];
-                 newTable.insert();
+                // newTable.insert();
+  				 var username = parsed.result[i]['user.user_name'];
+   				 var usersysid = parsed.result[i].user.value;
+  				 var firstname = parsed.result[i]['user.first_name'];
+  				 var lastname = parsed.result[i]['user.last_name'];
+  				 var lastlogin = parsed.result[i]['user.last_login_time'];
+  				 var active = parsed.result[i]['user.active'];
+  				 var sysId = newTable.insert();
+				 gs.info("Inserted record is " + sysId + " username parsed is " + username + " userSysId is "+ usersysid + "role is " + role + "firstname is: " + firstname + " Lastname is: " + lastname + "Last Login is: " + lastlogin + "active: " + active + " instance is: " + instance + " country is: " + instancecountry);
             }
 })(inputs, outputs);
 </value>
