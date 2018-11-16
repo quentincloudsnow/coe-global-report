@@ -15,5 +15,11 @@
         <element label="Roles to Query" max_length="500" name="rolestoquery" reference="x_snc_coe_global_r_coeroles" reference_qual="javascript:'instance='+current.sys_id;" type="glide_list" use_reference_qualifier="advanced"/>
         <element label="status" max_length="40" name="status" read_only="true" type="string"/>
         <element label="testcredentials" max_length="40" name="testcredentials" type="boolean"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="credentialalias"/>
+        </index>
     </element>
 </database>

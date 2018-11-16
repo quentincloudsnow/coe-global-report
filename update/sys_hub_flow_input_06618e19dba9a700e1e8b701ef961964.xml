@@ -38,7 +38,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Deprecated - coe global pull user and role v2">f9618e19dba9a700e1e8b701ef96195e</model>
+        <model display_value="coe global pull user and role v2">f9618e19dba9a700e1e8b701ef96195e</model>
         <model_id>f9618e19dba9a700e1e8b701ef96195e</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_f9618e19dba9a700e1e8b701ef96195e</name>

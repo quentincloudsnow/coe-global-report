@@ -11,7 +11,7 @@
         <master>true</master>
         <name>coe - delete duplicate v1</name>
         <outputs/>
-        <parent_action display_value="coe - delete duplicate v1">1eff2aa9dbf92700e1e8b701ef96198c</parent_action>
+        <parent_action/>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-15 23:06:07</sys_created_on>
