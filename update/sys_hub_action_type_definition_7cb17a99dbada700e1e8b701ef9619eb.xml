@@ -9,7 +9,7 @@
         <description>Perform a REST API Call to a Remote ServiceNow instance to collect users and roles</description>
         <internal_name>coe_global_pull_all_roles_from_instance</internal_name>
         <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[250b4511-8802-462b-b00e-45e7f44a6679].record.sys_id}}","label":"step➛Look Up Record step➛coe global instances Record➛Sys ID","type":"step","ref":""},{"name":"{{step[323bc8fd-badf-4621-9811-ad4a1dd241e1].record.credentialalias}}","label":"step➛Look Up Record step➛coe global instances Record➛Credential Alias","type":"step","ref":"sys_alias"}]</label_cache>
-        <latest_snapshot>23167f7e13656b0061e07f176144b0cb</latest_snapshot>
+        <latest_snapshot>83c50a531375eb0061e07f176144b018</latest_snapshot>
         <master_snapshot>39c5f6dddbada700e1e8b701ef9619e0</master_snapshot>
         <name> coe global pull all roles from instance</name>
         <outputs/>

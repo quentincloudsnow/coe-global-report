@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>coe_report</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-21 04:05:43</sys_created_on>
+        <sys_id>45946d5713b1eb0061e07f176144b0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe_report</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sp_page_45946d5713b1eb0061e07f176144b0bb</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-21 04:05:43</sys_updated_on>
+        <title>COE-Report</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=45946d5713b1eb0061e07f176144b0bb"/>
+</record_update>

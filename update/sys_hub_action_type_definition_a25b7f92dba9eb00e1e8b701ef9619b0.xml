@@ -9,7 +9,7 @@
         <description/>
         <internal_name>coe_test_connection</internal_name>
         <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{step[636f890e-1824-4233-b8c5-c367b1efd734].record.credentialalias}}","label":"step➛Look Up Record step➛coe global instances Record➛Credential Alias","type":"step","ref":"sys_alias"},{"name":"{{step[cf6fd4b2-4ac1-4855-ab6e-e6716c879d62].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[cf6fd4b2-4ac1-4855-ab6e-e6716c879d62].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>ed7bb2e5db3d2700e1e8b701ef9619d1</latest_snapshot>
+        <latest_snapshot>3ba6259f13b563003c92f8fed144b05a</latest_snapshot>
         <master_snapshot>8c4d7b56dba9eb00e1e8b701ef961935</master_snapshot>
         <name>coe test connection</name>
         <outputs/>
