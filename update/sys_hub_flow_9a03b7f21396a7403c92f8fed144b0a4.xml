@@ -9,7 +9,7 @@
         <description/>
         <internal_name>coe_-_pull_applications_from_roles</internal_name>
         <label_cache>[{"name":"cb846eab-8c16-491c-8f0a-b0d3050156c8.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"cb846eab-8c16-491c-8f0a-b0d3050156c8.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"c19f39bf-8890-4498-9679-a337caefb335.applications","label":"2➛applications","reference_display":"applications","type":"string","base_type":"string"},{"name":"b97ba82c-1680-4756-96f5-481a9ee9d587.Records","label":"2➛coe global roles Records","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"records","base_type":"records"},{"name":"b97ba82c-1680-4756-96f5-481a9ee9d587.Table","label":"2➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"b97ba82c-1680-4756-96f5-481a9ee9d587.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"e3a24f49-ff12-42ca-bd7f-ea2be2224d5b.item","label":"3➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"a7364018-881f-41af-9e43-c3e21716e7f1.applications","label":"3.1➛applications","reference_display":"applications","type":"string","base_type":"string"},{"name":"e3a24f49-ff12-42ca-bd7f-ea2be2224d5b.item.role","label":"3➛coe global roles Record➛role","reference":"","reference_display":"role","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coeroles","column_name":"role"},{"name":"54b7567f-a1f6-4134-b5df-372eca0cd303.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"54b7567f-a1f6-4134-b5df-372eca0cd303.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"42d764e0-7752-4dbd-b07e-fc295017f6a7.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"42d764e0-7752-4dbd-b07e-fc295017f6a7.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"}]</label_cache>
-        <latest_snapshot>75cb3bfe1396a7403c92f8fed144b08d</latest_snapshot>
+        <latest_snapshot>3fd9337e1396a7403c92f8fed144b00f</latest_snapshot>
         <master_snapshot>3fd9337e1396a7403c92f8fed144b00f</master_snapshot>
         <name>coe - Pull Applications from roles</name>
         <outputs/>
@@ -22,14 +22,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 21:42:33</sys_created_on>
         <sys_id>9a03b7f21396a7403c92f8fed144b0a4</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>coe - Pull Applications from roles</sys_name>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_flow_9a03b7f21396a7403c92f8fed144b0a4</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:20:47</sys_updated_on>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 22:51:39</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=9a03b7f21396a7403c92f8fed144b0a4"/>

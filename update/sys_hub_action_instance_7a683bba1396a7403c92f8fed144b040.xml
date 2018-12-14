@@ -5,7 +5,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="coe - Pull Applications from roles">9a03b7f21396a7403c92f8fed144b0a4</flow>
         <order>1</order>
@@ -14,14 +14,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 22:06:04</sys_created_on>
         <sys_id>7a683bba1396a7403c92f8fed144b040</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_instance_7a683bba1396a7403c92f8fed144b040</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:20:48</sys_updated_on>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 22:51:40</sys_updated_on>
         <ui_id>54b7567f-a1f6-4134-b5df-372eca0cd303</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a683bba1396a7403c92f8fed144b040"/>
@@ -84,11 +84,11 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 22:12:22</sys_created_on>
         <sys_id>d7d9ff3e1396a7403c92f8fed144b0ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:12:22</sys_updated_on>
+        <sys_updated_on>2018-12-14 22:51:25</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>action=pull all roles from remote instance	^instance={{Updated_1.current.instancename}}^status=Started</value>
+        <value>action=pull all applications names for roles from remote instance	^instance={{Updated_1.current.instancename}}^status=Started</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
