@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Perform a REST API Call to a Remote ServiceNow instance to collect users and roles</description>
+        <internal_name>coe_global_get_applications_for_roles</internal_name>
+        <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c37c91db-e2a3-4fa4-80c2-1f630a6e6109].record.credentialalias}}","label":"step➛Look Up Record step➛coe global instances Record➛Credential Alias","type":"step","ref":"sys_alias"},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].a}}","label":"step➛Script step➛a","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].ap}}","label":"step➛Script step➛ap","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].app}}","label":"step➛Script step➛app","type":"step","ref":""},{"name":"{{step[80e318a4-6986-45c4-afca-2e4887322d93].apps}}","label":"step➛Script step➛apps","type":"step","ref":""},{"name":"{{step[bdadae0c-573f-4da6-99ec-d18a29555ddc].record}}","label":"step➛Look Up Record step➛coe global roles Record","type":"step","ref":"x_snc_coe_global_r_coeroles"}]</label_cache>
+        <master>true</master>
+        <name>coe global get applications for roles</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="coe global get applications for roles">86e623f61356a7403c92f8fed144b015</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 21:41:39</sys_created_on>
+        <sys_id>59d2bbf21396a7403c92f8fed144b0da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>coe global get applications for roles</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_59d2bbf21396a7403c92f8fed144b0da</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 21:56:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=59d2bbf21396a7403c92f8fed144b0da"/>
+    <sys_variable_value action="delete_multiple" query="document_key=59d2bbf21396a7403c92f8fed144b0da"/>
+    <sys_element_mapping action="delete_multiple" query="id=59d2bbf21396a7403c92f8fed144b0da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>applications</field>
+        <id>59d2bbf21396a7403c92f8fed144b0da</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 21:41:42</sys_created_on>
+        <sys_id>b1d2fbf21396a7403c92f8fed144b060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 21:41:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_59d2bbf21396a7403c92f8fed144b0da</table>
+        <value>{{step[80e318a4-6986-45c4-afca-2e4887322d93].apps}}</value>
+    </sys_element_mapping>
+</record_update>

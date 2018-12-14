@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="coe global roles" max_length="40" name="x_snc_coe_global_r_coeroles" type="collection">
+        <element label="Applications" max_length="1000" name="applications" type="string"/>
         <element label="description" max_length="255" name="description" type="string"/>
         <element label="instance" max_length="32" name="instance" reference="x_snc_coe_global_r_coe_global_instances" type="reference"/>
         <element display="true" label="role" max_length="40" name="role" type="string"/>
