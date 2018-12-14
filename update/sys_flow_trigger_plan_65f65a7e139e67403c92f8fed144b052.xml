@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"65f65a7e139e67403c92f8fed144b052","name":"plan"}}</plan>
+        <plan_id>73129ef2139e67403c92f8fed144b063</plan_id>
+        <snapshot>3d2716be139e67403c92f8fed144b093</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 15:00:16</sys_created_on>
+        <sys_id>65f65a7e139e67403c92f8fed144b052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>65f65a7e139e67403c92f8fed144b050</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_65f65a7e139e67403c92f8fed144b052</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 15:00:16</sys_updated_on>
+        <trigger display_value="">65f65a7e139e67403c92f8fed144b050</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

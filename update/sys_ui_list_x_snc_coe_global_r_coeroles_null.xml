@@ -3,17 +3,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>role</element>
-            <list_id display_value="x_snc_coe_global_r_coeroles" element="NULL" name="x_snc_coe_global_r_coeroles" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">38aef155dba9a700e1e8b701ef9619ee</list_id>
+            <list_id display_value="x_snc_coe_global_r_coeroles" element="NULL" name="x_snc_coe_global_r_coeroles" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4416a6b61312a7403c92f8fed144b009</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>quentin.carton</sys_created_by>
-            <sys_created_on>2018-11-02 14:36:02</sys_created_on>
-            <sys_id>34aef155dba9a700e1e8b701ef9619ef</sys_id>
+            <sys_created_on>2018-12-14 16:06:14</sys_created_on>
+            <sys_id>4016a6b61312a7403c92f8fed144b00a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>quentin.carton</sys_updated_by>
-            <sys_updated_on>2018-11-02 14:36:02</sys_updated_on>
+            <sys_updated_on>2018-12-14 16:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instance.country</element>
+            <list_id display_value="x_snc_coe_global_r_coeroles" element="NULL" name="x_snc_coe_global_r_coeroles" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4416a6b61312a7403c92f8fed144b009</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2018-12-14 16:06:14</sys_created_on>
+            <sys_id>c416a6b61312a7403c92f8fed144b00a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2018-12-14 16:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instance.instancename</element>
+            <list_id display_value="x_snc_coe_global_r_coeroles" element="NULL" name="x_snc_coe_global_r_coeroles" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4416a6b61312a7403c92f8fed144b009</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2018-12-14 16:06:14</sys_created_on>
+            <sys_id>4816a6b61312a7403c92f8fed144b00a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2018-12-14 16:06:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>quentin.carton</sys_created_by>
-            <sys_created_on>2018-11-02 14:36:02</sys_created_on>
+            <sys_created_on>2018-12-14 16:06:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>38aef155dba9a700e1e8b701ef9619ee</sys_id>
+            <sys_id>4416a6b61312a7403c92f8fed144b009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_coe_global_r_coeroles</sys_name>
             <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
@@ -38,7 +68,7 @@
             <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_coe_global_r_coeroles_null</sys_update_name>
             <sys_updated_by>quentin.carton</sys_updated_by>
-            <sys_updated_on>2018-11-02 14:36:02</sys_updated_on>
+            <sys_updated_on>2018-12-14 16:06:14</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

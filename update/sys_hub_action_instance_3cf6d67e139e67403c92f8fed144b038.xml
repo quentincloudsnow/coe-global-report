@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Create a log 'Started'</comment>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="coe - pull users from instances">a0f6967e139e67403c92f8fed144b0cd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 15:00:13</sys_created_on>
+        <sys_id>3cf6d67e139e67403c92f8fed144b038</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3cf6d67e139e67403c92f8fed144b038</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 15:00:13</sys_updated_on>
+        <ui_id>9b4eccf4-23eb-461d-8a12-8751551b74bd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3cf6d67e139e67403c92f8fed144b038"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3cf6d67e139e67403c92f8fed144b038</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 15:00:13</sys_created_on>
+        <sys_id>b8f6d67e139e67403c92f8fed144b03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 15:00:13</sys_updated_on>
+        <value>x_snc_coe_global_r_coe_global_trigger</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3cf6d67e139e67403c92f8fed144b038"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3cf6d67e139e67403c92f8fed144b038</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 15:00:13</sys_created_on>
+        <sys_id>74f6d67e139e67403c92f8fed144b03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 15:00:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3cf6d67e139e67403c92f8fed144b038</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-12-14 15:00:13</sys_created_on>
+        <sys_id>38f6d67e139e67403c92f8fed144b03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-12-14 15:00:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>action=Pull users from remote instance^status=Started^instance={{Updated_1.current.instancename}}</value>
+    </sys_element_mapping>
+</record_update>

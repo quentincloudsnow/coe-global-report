@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="pullusers" label="Pullusers" language="en" table="x_snc_coe_global_r_coe_global_instances">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pullusers</element>
+            <help/>
+            <hint/>
+            <label>Pullusers</label>
+            <language>en</language>
+            <name>x_snc_coe_global_r_coe_global_instances</name>
+            <plural>Pullusers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2018-12-14 14:37:12</sys_created_on>
+            <sys_id>a3a11af2139e67403c92f8fed144b0bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pullusers</sys_name>
+            <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_coe_global_r_coe_global_instances_pullusers_en</sys_update_name>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2018-12-14 14:37:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

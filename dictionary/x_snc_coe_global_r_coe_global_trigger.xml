@@ -2,6 +2,7 @@
     <element label="coe global trigger" max_length="40" name="x_snc_coe_global_r_coe_global_trigger" type="collection">
         <element label="action" max_length="40" name="action" type="string"/>
         <element label="Description" max_length="1024" name="description" type="url"/>
+        <element label="instance" max_length="40" name="instance" type="string"/>
         <element label="lastsync" max_length="40" name="lastsync" type="string"/>
         <element label="onoff" max_length="40" name="onoff" type="boolean"/>
         <element label="status" max_length="40" name="status" type="string"/>

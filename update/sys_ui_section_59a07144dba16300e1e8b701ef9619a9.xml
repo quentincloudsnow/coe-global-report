@@ -140,6 +140,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pullroles</element>
+            <position>10</position>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2018-12-14 14:11:05</sys_created_on>
+            <sys_id>d1bb8a7a135e67403c92f8fed144b0af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_coe_global_r_coe_global_instances" sys_domain="global" view="Default view">59a07144dba16300e1e8b701ef9619a9</sys_ui_section>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2018-12-14 14:11:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pullusers</element>
+            <position>11</position>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2018-12-14 14:37:12</sys_created_on>
+            <sys_id>aba11af2139e67403c92f8fed144b0b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_coe_global_r_coe_global_instances" sys_domain="global" view="Default view">59a07144dba16300e1e8b701ef9619a9</sys_ui_section>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2018-12-14 14:37:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
