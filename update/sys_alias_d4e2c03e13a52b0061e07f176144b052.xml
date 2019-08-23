@@ -4,6 +4,7 @@
         <id>x_snc_coe_global_r.coe_usa_ro</id>
         <multiple_connections>false</multiple_connections>
         <name>coe_usa_ro</name>
+        <retry_policy/>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-06 21:26:33</sys_created_on>

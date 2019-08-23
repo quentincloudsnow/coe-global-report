@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDeac3c9bfead733005e8c2c5fda31273b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0f2d6dccdb616300e1e8b701ef96196e</scope_name>
+        <serialized_content>{"FlowDesigner:FDeac3c9bfead733005e8c2c5fda31273b":{"role":"String","role.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"role\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDeac3c9bfead733005e8c2c5fda31273b.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDeac3c9bfead733005e8c2c5fda31273b\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Role\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"8000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>quentin.carton@snc</sys_created_by>
+        <sys_created_on>2019-08-23 00:44:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aec3c9bfdbd733001819db184b96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDeac3c9bfead733005e8c2c5fda31273b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_complex_object_aec3c9bfdbd733001819db184b96193b</sys_update_name>
+        <sys_updated_by>quentin.carton@snc</sys_updated_by>
+        <sys_updated_on>2019-08-23 00:44:45</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

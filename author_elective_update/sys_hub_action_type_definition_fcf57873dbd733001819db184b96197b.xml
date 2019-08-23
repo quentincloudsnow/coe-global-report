@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>coe__ds__pull_roles</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>coe - ds - pull roles</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>quentin.carton@snc</sys_created_by>
+        <sys_created_on>2019-08-22 23:44:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcf57873dbd733001819db184b96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe - ds - pull roles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_fcf57873dbd733001819db184b96197b</sys_update_name>
+        <sys_updated_by>quentin.carton@snc</sys_updated_by>
+        <sys_updated_on>2019-08-22 23:44:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=fcf57873dbd733001819db184b96197b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fcf57873dbd733001819db184b96197b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</application>
+        <file_path/>
+        <instance_id>05811f72dbbe270007072f17d4961968</instance_id>
+        <instance_name>quentinhead</instance_name>
+        <name>sys_hub_action_type_definition_fcf57873dbd733001819db184b96197b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>coe__ds__pull_roles</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>coe - ds - pull roles</name><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>quentin.carton@snc</sys_created_by><sys_created_on>2019-08-22 23:44:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fcf57873dbd733001819db184b96197b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>coe - ds - pull roles</sys_name><sys_overrides/><sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package><sys_policy/><sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope><sys_update_name>sys_hub_action_type_definition_fcf57873dbd733001819db184b96197b</sys_update_name><sys_updated_by>quentin.carton@snc</sys_updated_by><sys_updated_on>2019-08-22 23:44:17</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=fcf57873dbd733001819db184b96197b"/><sys_variable_value action="delete_multiple" query="document_key=fcf57873dbd733001819db184b96197b"/></record_update>]]></payload>
+        <payload_hash>208266708</payload_hash>
+        <record_name>coe - ds - pull roles</record_name>
+        <reverted_from/>
+        <source>7743f83bdb9733001819db184b9619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>quentin.carton@snc</sys_created_by>
+        <sys_created_on>2019-08-22 23:44:17</sys_created_on>
+        <sys_id>bcf57873dbd733001819db184b96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cbbb7721a0000001</sys_recorded_at>
+        <sys_updated_by>quentin.carton@snc</sys_updated_by>
+        <sys_updated_on>2019-08-22 23:44:17</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>b4f57873d7d733006ec9c6c725df5c7f</update_guid>
+        <update_guid_history>b4f57873d7d733006ec9c6c725df5c7f:208266708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>quentin.carton@snc</sys_created_by>
+        <sys_created_on>2019-08-22 23:44:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>1cded24cb2a0429984708702c3eae1b1</sys_id>
+        <sys_metadata>fcf57873dbd733001819db184b96197b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe - ds - pull roles</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_scope_delete display_value="">2707b48fa4dd4bd4a2a305457911e790</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_fcf57873dbd733001819db184b96197b</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_fcf57873dbd733001819db184b96197b">bcf57873dbd733001819db184b96197f</sys_update_version>
+        <sys_updated_by>quentin.carton@snc</sys_updated_by>
+        <sys_updated_on>2019-08-22 23:44:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
+        <acls/>
         <active>false</active>
         <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
@@ -14,6 +16,7 @@
         <name>coe flow track error in app log</name>
         <outputs/>
         <remote_trigger_id/>
+        <run_as/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -21,9 +24,12 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-11-07 22:37:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>b5bcd9cfdbe1af00e1e8b701ef96194e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>coe flow track error in app log</sys_name>
+        <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
@@ -32,5 +38,18 @@
         <sys_updated_on>2018-11-07 22:37:12</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5bcd9cfdbe1af00e1e8b701ef96194e"/>
     <sys_variable_value action="delete_multiple" query="document_key=b5bcd9cfdbe1af00e1e8b701ef96194e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b5bcd9cfdbe1af00e1e8b701ef96194e^sys_idNOT INfdbcd9cfdbe1af00e1e8b701ef96194e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b5bcd9cfdbe1af00e1e8b701ef96194e</id>
+        <name>coe flow track error in app log</name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2018-11-07 22:37:12</sys_created_on>
+        <sys_id>fdbcd9cfdbe1af00e1e8b701ef96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2018-11-07 22:37:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
 </record_update>

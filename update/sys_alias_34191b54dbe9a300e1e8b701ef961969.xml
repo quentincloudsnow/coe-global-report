@@ -4,6 +4,7 @@
         <id>x_snc_coe_global_r.sn_coe_snremote</id>
         <multiple_connections>false</multiple_connections>
         <name>sn_coe_snremote</name>
+        <retry_policy/>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-30 18:38:24</sys_created_on>
