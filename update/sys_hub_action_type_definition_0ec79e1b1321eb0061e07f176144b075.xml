@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>coe_global_get_sysid_users_with_roles_v2</internal_name>
         <label_cache>[{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{step[9d23bea5-d551-4951-985a-3fc94c621d07].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[21e22a39-a1a8-42db-9048-9e7780d5160f].record.sys_id}}","label":"step➛Look Up Record step➛coe global instances Record➛Sys ID","type":"step","ref":""},{"name":"{{step[21e22a39-a1a8-42db-9048-9e7780d5160f].record.country.sys_id}}","label":"step➛Look Up Record step➛coe global instances Record➛country➛Sys ID","type":"step","ref":""},{"name":"{{step[c37c91db-e2a3-4fa4-80c2-1f630a6e6109].record.credentialalias}}","label":"step➛Look Up Record step➛coe global instances Record➛Credential Alias","type":"step","ref":"sys_alias"}]</label_cache>
-        <latest_snapshot>8f85f033db173300ba152efd0b9619f0</latest_snapshot>
+        <latest_snapshot>4239ad6d1b233300b4648515ec4bcbe9</latest_snapshot>
         <master_snapshot>03ac26d313a1eb0061e07f176144b0c4</master_snapshot>
         <name>coe global get sysid users with roles v2</name>
         <outputs/>

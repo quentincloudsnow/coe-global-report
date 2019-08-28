@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>73129ef2139e67403c92f8fed144b063</copied_from>
+        <copied_from_name>coe - pull users from instances</copied_from_name>
+        <description/>
+        <internal_name>coe___pull_users_from_instances__ds</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item.role","label":"3➛coe global roles Record➛role","reference":"","reference_display":"role","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coeroles","column_name":"role"},{"name":"ef1de5e3-cb76-4985-9cdc-afb6695d4e9e.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item","label":"3➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Table","label":"2➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Records","label":"2➛coe global roles Records","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"records","base_type":"records"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"9f367436-f726-451d-8759-314f35c7a065.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9f367436-f726-451d-8759-314f35c7a065.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>coe -  pull users from instances - ds</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 14:02:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c46a65211b633300b4648515ec4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe -  pull users from instances - ds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_hub_flow_c46a65211b633300b4648515ec4bcb12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 14:02:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c46a65211b633300b4648515ec4bcb12"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c46a65211b633300b4648515ec4bcb12"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c46a65211b633300b4648515ec4bcb12^sys_idNOT IN546a65211b633300b4648515ec4bcb13"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c46a65211b633300b4648515ec4bcb12</id>
+        <name>coe -  pull users from instances - ds</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 14:02:43</sys_created_on>
+        <sys_id>546a65211b633300b4648515ec4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 14:02:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</application>
+        <file_path/>
+        <instance_id>776d2093dbcbbf840ae3ac44d49619cd</instance_id>
+        <instance_name>dev91144</instance_name>
+        <name>sys_hub_flow_c46a65211b633300b4648515ec4bcb12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from>73129ef2139e67403c92f8fed144b063</copied_from><copied_from_name>coe - pull users from instances</copied_from_name><description/><internal_name>coe___pull_users_from_instances__ds</internal_name><label_cache>[{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item.role","label":"3➛coe global roles Record➛role","reference":"","reference_display":"role","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coeroles","column_name":"role"},{"name":"ef1de5e3-cb76-4985-9cdc-afb6695d4e9e.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item","label":"3➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Table","label":"2➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Records","label":"2➛coe global roles Records","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"records","base_type":"records"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"9f367436-f726-451d-8759-314f35c7a065.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9f367436-f726-451d-8759-314f35c7a065.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"}]</label_cache><latest_snapshot/><master_snapshot/><name>coe -  pull users from instances - ds</name><outputs/><remote_trigger_id/><run_as>system</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-28 14:02:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c46a65211b633300b4648515ec4bcb12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>coe -  pull users from instances - ds</sys_name><sys_overrides/><sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package><sys_policy/><sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope><sys_update_name>sys_hub_flow_c46a65211b633300b4648515ec4bcb12</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-28 14:02:43</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=c46a65211b633300b4648515ec4bcb12"/><sys_variable_value action="delete_multiple" query="document_key=c46a65211b633300b4648515ec4bcb12"/><sys_flow_cat_variable_model action="delete_multiple" query="id=c46a65211b633300b4648515ec4bcb12^sys_idNOT IN546a65211b633300b4648515ec4bcb13"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>c46a65211b633300b4648515ec4bcb12</id><name>coe -  pull users from instances - ds</name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-28 14:02:43</sys_created_on><sys_id>546a65211b633300b4648515ec4bcb13</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-28 14:02:43</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>377465723</payload_hash>
+        <record_name>coe -  pull users from instances - ds</record_name>
+        <reverted_from/>
+        <source>41a060841b233300b4648515ec4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 14:02:43</sys_created_on>
+        <sys_id>186a65211b633300b4648515ec4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cd88929940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 14:02:43</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>1c6a6521416333003d3e447e7cf32116</update_guid>
+        <update_guid_history>1c6a6521416333003d3e447e7cf32116:377465723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 17:43:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>30a0fb86ddc24ff4a0f1cb52f647c604</sys_id>
+        <sys_metadata>c46a65211b633300b4648515ec4bcb12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe -  pull users from instances - ds</sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_scope_delete display_value="">2707b48fa4dd4bd4a2a305457911e790</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c46a65211b633300b4648515ec4bcb12</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c46a65211b633300b4648515ec4bcb12">186a65211b633300b4648515ec4bcb3c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:43:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -88,13 +88,13 @@
         <source>7eba6723db1333001819db184b961943</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-22 18:15:39</sys_created_on>
         <sys_id>7b13fc7bdb9733001819db184b96192a</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>16cba8a90f80000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:49:13</sys_updated_on>
         <type>Choice list</type>
         <update_guid>3b13fc7ba2973300547a430f09024d2a</update_guid>
         <update_guid_history>3b13fc7ba2973300547a430f09024d2a:-1869706575</update_guid_history>

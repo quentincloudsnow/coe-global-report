@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -10,32 +10,32 @@
         <copied_from_name/>
         <description/>
         <internal_name>coe_-_pull_users_from_instances</internal_name>
-        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item.role","label":"3➛coe global roles Record➛role","reference":"","reference_display":"role","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coeroles","column_name":"role"},{"name":"ef1de5e3-cb76-4985-9cdc-afb6695d4e9e.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item","label":"3➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Table","label":"2➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Records","label":"2➛coe global roles Records","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"records","base_type":"records"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"9f367436-f726-451d-8759-314f35c7a065.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9f367436-f726-451d-8759-314f35c7a065.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"}]</label_cache>
-        <latest_snapshot>13853433db173300ba152efd0b961949</latest_snapshot>
+        <label_cache>[{"name":"9f367436-f726-451d-8759-314f35c7a065.table_name","label":"4➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"9f367436-f726-451d-8759-314f35c7a065.record","label":"4➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"9b4eccf4-23eb-461d-8a12-8751551b74bd.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Records","label":"2➛coe global roles Records","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"records","base_type":"records"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Table","label":"2➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"53e68a16-d323-4ae7-be88-f4bad1b8cdec.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item","label":"3➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"ef1de5e3-cb76-4985-9cdc-afb6695d4e9e.payload","label":"3.1➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"68e02365-b920-4a40-a513-c3484e34e19d.item.role","label":"3➛coe global roles Record➛role","reference":"","reference_display":"role","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coeroles","column_name":"role"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"47a8cd31-d3b9-4300-bf94-8f1d8966f2b9.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>1a39ed6d1b233300b4648515ec4bcb3b</latest_snapshot>
         <master_snapshot>a0f6967e139e67403c92f8fed144b0cd</master_snapshot>
-        <name>coe - pull users from instances</name>
+        <name>DEPRECATED coe - pull users from instances</name>
         <outputs/>
         <remote_trigger_id>65f65a7e139e67403c92f8fed144b050</remote_trigger_id>
         <run_as/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:39:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73129ef2139e67403c92f8fed144b063</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>coe - pull users from instances</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>DEPRECATED coe - pull users from instances</sys_name>
         <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_flow_73129ef2139e67403c92f8fed144b063</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:01:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:52</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=73129ef2139e67403c92f8fed144b063"/>
@@ -49,21 +49,21 @@
         <on_delete>false</on_delete>
         <on_insert>false</on_insert>
         <on_update>true</on_update>
-        <run_flow_in/>
-        <run_when_setting/>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
         <run_when_user_list/>
-        <run_when_user_setting/>
+        <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 15:00:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65f65a7e139e67403c92f8fed144b050</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:00:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:35:19</sys_updated_on>
         <table>x_snc_coe_global_r_coe_global_instances</table>
     </sys_flow_record_trigger>
     <sys_hub_flow_component action="delete_multiple" query="flow=73129ef2139e67403c92f8fed144b063^sys_idNOT IN2e4592fa139e67403c92f8fed144b07e,6753d676139e67403c92f8fed144b0d5,964592fa139e67403c92f8fed144b05a,a353d676139e67403c92f8fed144b0e1,aac5dafa139e67403c92f8fed144b0c8,bb531a76139e67403c92f8fed144b003"/>
@@ -75,17 +75,17 @@
         <comment>mark the log status Completed</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:52:57</sys_created_on>
         <sys_id>2e4592fa139e67403c92f8fed144b07e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>9f367436-f726-451d-8759-314f35c7a065</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e4592fa139e67403c92f8fed144b07e"/>
@@ -226,17 +226,17 @@
         <comment/>
         <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>6753d676139e67403c92f8fed144b0d5</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>53e68a16-d323-4ae7-be88-f4bad1b8cdec</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6753d676139e67403c92f8fed144b0d5"/>
@@ -377,17 +377,17 @@
         <comment>Create a log 'Started'</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:52:56</sys_created_on>
         <sys_id>964592fa139e67403c92f8fed144b05a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>9b4eccf4-23eb-461d-8a12-8751551b74bd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=964592fa139e67403c92f8fed144b05a"/>
@@ -476,17 +476,17 @@
         <comment/>
         <compiled_snapshot>03ac26d313a1eb0061e07f176144b0c4</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>3.1</order>
         <parent_ui_id>68e02365-b920-4a40-a513-c3484e34e19d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>a353d676139e67403c92f8fed144b0e1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>ef1de5e3-cb76-4985-9cdc-afb6695d4e9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a353d676139e67403c92f8fed144b0e1"/>
@@ -547,17 +547,17 @@
         <comment>Update the pullusers switch to false</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:55:09</sys_created_on>
         <sys_id>aac5dafa139e67403c92f8fed144b0c8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>47a8cd31-d3b9-4300-bf94-8f1d8966f2b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aac5dafa139e67403c92f8fed144b0c8"/>
@@ -691,13 +691,13 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">3f531a76139e67403c92f8fed144b001</block>
+        <block display_value="">9e3d9aa51b273300b4648515ec4bcb22</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>3</order>
@@ -708,10 +708,10 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:35</sys_created_on>
         <sys_id>bb531a76139e67403c92f8fed144b003</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:01:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>68e02365-b920-4a40-a513-c3484e34e19d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -735,16 +735,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>6f53d676139e67403c92f8fed144b0cb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:01:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -810,7 +810,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -845,7 +845,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</model>
+        <model display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</model>
         <model_id>73129ef2139e67403c92f8fed144b063</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_73129ef2139e67403c92f8fed144b063</name>
@@ -868,14 +868,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>6f53d676139e67403c92f8fed144b0b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-12-14 14:44:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -891,7 +891,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -926,7 +926,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</model>
+        <model display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</model>
         <model_id>73129ef2139e67403c92f8fed144b063</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_73129ef2139e67403c92f8fed144b063</name>
@@ -949,14 +949,14 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:33</sys_created_on>
         <sys_id>9753d676139e67403c92f8fed144b0b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>quentin.carton</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:00:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -977,17 +977,17 @@
         <comment>mark the log status Completed</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:52:57</sys_created_on>
         <sys_id>2e4592fa139e67403c92f8fed144b07e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>9f367436-f726-451d-8759-314f35c7a065</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e4592fa139e67403c92f8fed144b07e"/>
@@ -1128,17 +1128,17 @@
         <comment/>
         <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>6753d676139e67403c92f8fed144b0d5</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>53e68a16-d323-4ae7-be88-f4bad1b8cdec</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6753d676139e67403c92f8fed144b0d5"/>
@@ -1279,17 +1279,17 @@
         <comment>Create a log 'Started'</comment>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:52:56</sys_created_on>
         <sys_id>964592fa139e67403c92f8fed144b05a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>9b4eccf4-23eb-461d-8a12-8751551b74bd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=964592fa139e67403c92f8fed144b05a"/>
@@ -1378,17 +1378,17 @@
         <comment/>
         <compiled_snapshot>03ac26d313a1eb0061e07f176144b0c4</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>3.1</order>
         <parent_ui_id>68e02365-b920-4a40-a513-c3484e34e19d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:34</sys_created_on>
         <sys_id>a353d676139e67403c92f8fed144b0e1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>ef1de5e3-cb76-4985-9cdc-afb6695d4e9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a353d676139e67403c92f8fed144b0e1"/>
@@ -1449,17 +1449,17 @@
         <comment>Update the pullusers switch to false</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:55:09</sys_created_on>
         <sys_id>aac5dafa139e67403c92f8fed144b0c8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-22 23:42:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>47a8cd31-d3b9-4300-bf94-8f1d8966f2b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aac5dafa139e67403c92f8fed144b0c8"/>
@@ -1594,13 +1594,13 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=73129ef2139e67403c92f8fed144b063^sys_idNOT INbb531a76139e67403c92f8fed144b003"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">3f531a76139e67403c92f8fed144b001</block>
+        <block display_value="">9e3d9aa51b273300b4648515ec4bcb22</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
-        <flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
+        <flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</flow>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>3</order>
@@ -1611,10 +1611,10 @@
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 14:44:35</sys_created_on>
         <sys_id>bb531a76139e67403c92f8fed144b003</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-14 15:01:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:44:51</sys_updated_on>
         <ui_id>68e02365-b920-4a40-a513-c3484e34e19d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1686,7 +1686,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"65f65a7e139e67403c92f8fed144b052","name":"plan"}}</plan>
         <plan_id>73129ef2139e67403c92f8fed144b063</plan_id>
-        <snapshot>13853433db173300ba152efd0b961949</snapshot>
+        <snapshot>1a39ed6d1b233300b4648515ec4bcb3b</snapshot>
         <sys_created_by>quentin.carton</sys_created_by>
         <sys_created_on>2018-12-14 15:00:16</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1714,7 +1714,7 @@
         <master>true</master>
         <name>coe - pull users from instances</name>
         <outputs/>
-        <parent_flow display_value="coe - pull users from instances">73129ef2139e67403c92f8fed144b063</parent_flow>
+        <parent_flow display_value="DEPRECATED coe - pull users from instances">73129ef2139e67403c92f8fed144b063</parent_flow>
         <remote_trigger_id/>
         <run_as/>
         <sc_callable>false</sc_callable>
