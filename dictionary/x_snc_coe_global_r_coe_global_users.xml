@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="coe global users" max_length="40" name="x_snc_coe_global_r_coe_global_users" type="collection">
+    <element label="coe global users" max_length="40" name="x_snc_coe_global_r_coe_global_users" sizeclass="25032" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="country" max_length="40" name="country" reference="core_country" type="reference"/>
         <element label="firstname" max_length="40" name="firstname" type="string"/>
