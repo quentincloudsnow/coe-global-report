@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>coe__get_users_from_instance</internal_name>
         <label_cache>[{"name":"{{action.credentialsalias}}","label":"action➛credentialsalias","type":"action","ref":""},{"name":"{{action.instanceurl}}","label":"action➛instanceurl","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{step[c6cc3dd6-6222-4bb2-b26f-505d10103962].limit}}","label":"step➛Pagination Setup step➛limit","type":"step","ref":""},{"name":"{{step[c6cc3dd6-6222-4bb2-b26f-505d10103962].offset}}","label":"step➛Pagination Setup step➛offset","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>fd6a1a371b273300b4648515ec4bcb86</latest_snapshot>
+        <latest_snapshot>eabb681c1b7f7300b4648515ec4bcb2f</latest_snapshot>
         <master_snapshot>ef2331691b633300b4648515ec4bcb8e</master_snapshot>
         <name>coe - get users from instance - ds</name>
         <outputs/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a24b29211b633300b4648515ec4bcbf2</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>coe - get users from instance - ds</sys_name>
         <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a24b29211b633300b4648515ec4bcbf2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -47,10 +47,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:37:15</sys_created_on>
         <sys_id>8e4231291b633300b4648515ec4bcba5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 16:05:45</sys_updated_on>
-        <value>{"version":{"majorVersion":1,"minorVersion":0,"artifactId":"","groupId":"","uknownVersion":false,"snapshot":false,"patchLevel":0,"unknownVersion":false},"serializationFormat":"JSON","complexObject":{"lastName":"","firstname":"","role":"","usersysid":"","lastlogin":"","active":"","username":""},"complexObjectSchema":{"FlowDesigner:FDbd423129dd633300f14d6d79a633776a":{"lastName":"String","lastName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastName\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"role":"String","role.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"role\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"usersysid":"String","usersysid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"usersysid\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"lastlogin":"String","lastlogin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastlogin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"username\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDbd423129dd633300f14d6d79a633776a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbd423129dd633300f14d6d79a633776a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"8000\"}"}}}</value>
+        <sys_updated_on>2019-09-05 22:31:03</sys_updated_on>
+        <value>{"version":{"majorVersion":1,"minorVersion":0,"unknownVersion":false,"groupId":"","uknownVersion":false,"snapshot":false,"patchLevel":0,"artifactId":""},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDbd423129dd633300f14d6d79a633776a":{"lastName":"String","lastName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastName\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"role":"String","role.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"role\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"usersysid":"String","usersysid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"usersysid\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"lastlogin":"String","lastlogin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastlogin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"username\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDbd423129dd633300f14d6d79a633776a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbd423129dd633300f14d6d79a633776a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"8000\"}"}},"complexObject":{"lastName":"","firstname":"","role":"","usersysid":"","lastlogin":"","active":"","username":""}}</value>
         <variable display_value="">864231291b633300b4648515ec4bcb85</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a24b29211b633300b4648515ec4bcbf2"/>
@@ -520,10 +520,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:27:52</sys_created_on>
         <sys_id>6420fd651b633300b4648515ec4bcb3c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:12:52</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:31:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6420fd651b633300b4648515ec4bcb3c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -534,9 +534,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:35:45</sys_created_on>
         <sys_id>c8f1b9e51b633300b4648515ec4bcb6b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 19:15:02</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:31:03</sys_updated_on>
         <value>&#13;
 try {&#13;
 (function parse(inputs, outputs) {&#13;
@@ -557,7 +557,7 @@ try {&#13;
     // outputs.targetObject.address.home.city = item.address.home.city;&#13;
 &#13;
     var item = JSON.parse(inputs.sourceItem);&#13;
-    outputs.targetObject.usersysid = item['user.value'];&#13;
+    outputs.targetObject.usersysid = item.user.value;&#13;
     outputs.targetObject.username = item['user.user_name'];&#13;
     outputs.targetObject.firstname = item['user.first_name'];&#13;
     outputs.targetObject.lastName = item['user.last_name'];&#13;
@@ -1513,14 +1513,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:15:44</sys_created_on>
         <sys_id>325d61e11b633300b4648515ec4bcbf2</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1596,14 +1596,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:15:44</sys_created_on>
         <sys_id>3a5d61e11b633300b4648515ec4bcbf7</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1679,14 +1679,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:27:52</sys_created_on>
         <sys_id>7020fd651b633300b4648515ec4bcb57</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1845,14 +1845,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:15:44</sys_created_on>
         <sys_id>875da1e11b633300b4648515ec4bcb01</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1928,14 +1928,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:27:52</sys_created_on>
         <sys_id>b020fd651b633300b4648515ec4bcb52</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2011,14 +2011,14 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:15:44</sys_created_on>
         <sys_id>c75d61e11b633300b4648515ec4bcbfc</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:50</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2412,10 +2412,10 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:27:52</sys_created_on>
         <sys_id>6420fd651b633300b4648515ec4bcb3c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:12:52</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:31:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6420fd651b633300b4648515ec4bcb3c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2426,9 +2426,9 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:35:45</sys_created_on>
         <sys_id>c8f1b9e51b633300b4648515ec4bcb6b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 19:15:02</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:31:03</sys_updated_on>
         <value>&#13;
 try {&#13;
 (function parse(inputs, outputs) {&#13;
@@ -2449,7 +2449,7 @@ try {&#13;
     // outputs.targetObject.address.home.city = item.address.home.city;&#13;
 &#13;
     var item = JSON.parse(inputs.sourceItem);&#13;
-    outputs.targetObject.usersysid = item['user.value'];&#13;
+    outputs.targetObject.usersysid = item.user.value;&#13;
     outputs.targetObject.username = item['user.user_name'];&#13;
     outputs.targetObject.firstname = item['user.first_name'];&#13;
     outputs.targetObject.lastName = item['user.last_name'];&#13;
@@ -3332,17 +3332,17 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="coe - get users from instance - ds">a24b29211b633300b4648515ec4bcbf2</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ec33b1691b633300b4648515ec4bcb14","name":"plan"}}</plan>
-        <snapshot>fd6a1a371b273300b4648515ec4bcb86</snapshot>
+        <snapshot>eabb681c1b7f7300b4648515ec4bcb2f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec33b1691b633300b4648515ec4bcb14</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:59</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3389,10 +3389,10 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:12</sys_created_on>
         <sys_id>7b2371691b633300b4648515ec4bcb0e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
-        <value>{"version":{"majorVersion":1,"minorVersion":0,"artifactId":"","groupId":"","uknownVersion":false,"snapshot":false,"patchLevel":0,"unknownVersion":false},"serializationFormat":"JSON","complexObject":{"lastName":"","firstname":"","role":"","usersysid":"","lastlogin":"","active":"","username":""},"complexObjectSchema":{"FlowDesigner:FDea6a5a375c2733009ef0b54f5e2ad09a":{"lastName":"String","lastName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastName\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"role":"String","role.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"role\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"usersysid":"String","usersysid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"usersysid\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"lastlogin":"String","lastlogin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastlogin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"username\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDea6a5a375c2733009ef0b54f5e2ad09a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDea6a5a375c2733009ef0b54f5e2ad09a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"8000\"}"}}}</value>
+        <sys_updated_on>2019-09-05 22:32:20</sys_updated_on>
+        <value>{"version":{"majorVersion":1,"minorVersion":0,"unknownVersion":false,"groupId":"","uknownVersion":false,"snapshot":false,"patchLevel":0,"artifactId":""},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDc7bba81ce67f7300ec25b2e25cebf8d2":{"lastName":"String","lastName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastName\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"role":"String","role.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"role\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"usersysid":"String","usersysid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"usersysid\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"lastlogin":"String","lastlogin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastlogin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"username\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDc7bba81ce67f7300ec25b2e25cebf8d2.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc7bba81ce67f7300ec25b2e25cebf8d2\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"8000\"}"}},"complexObject":{"lastName":"","firstname":"","role":"","usersysid":"","lastlogin":"","active":"","username":""}}</value>
         <variable display_value="">372331691b633300b4648515ec4bcbee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ef2331691b633300b4648515ec4bcb8e"/>
@@ -4424,10 +4424,10 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>f72331691b633300b4648515ec4bcbc9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:55</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f72331691b633300b4648515ec4bcbc9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4438,9 +4438,9 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>7b2331691b633300b4648515ec4bcbcd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 19:57:17</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <value>&#13;
 try {&#13;
 (function parse(inputs, outputs) {&#13;
@@ -4461,7 +4461,7 @@ try {&#13;
     // outputs.targetObject.address.home.city = item.address.home.city;&#13;
 &#13;
     var item = JSON.parse(inputs.sourceItem);&#13;
-    outputs.targetObject.usersysid = item['user.value'];&#13;
+    outputs.targetObject.usersysid = item.user.value;&#13;
     outputs.targetObject.username = item['user.user_name'];&#13;
     outputs.targetObject.firstname = item['user.first_name'];&#13;
     outputs.targetObject.lastName = item['user.last_name'];&#13;
@@ -4769,7 +4769,7 @@ catch(err) {&#13;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDea6a5a375c2733009ef0b54f5e2ad09a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <attributes>co_type_name=FDc7bba81ce67f7300ec25b2e25cebf8d2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4829,14 +4829,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>372331691b633300b4648515ec4bcbee</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:55</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4912,14 +4912,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>3b2331691b633300b4648515ec4bcbda</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4995,14 +4995,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>772331691b633300b4648515ec4bcbd0</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5078,14 +5078,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>772331691b633300b4648515ec4bcbe9</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5161,14 +5161,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>7b2331691b633300b4648515ec4bcbd5</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5244,14 +5244,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>b72331691b633300b4648515ec4bcbe4</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5327,14 +5327,14 @@ catch(err) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>f72331691b633300b4648515ec4bcbdf</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:56</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6290,10 +6290,10 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>f72331691b633300b4648515ec4bcbc9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-04 17:18:55</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f72331691b633300b4648515ec4bcbc9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6304,9 +6304,9 @@ if (variables['status'] == 'failure') {variables['getNextPage'] = false; }&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 14:41:11</sys_created_on>
         <sys_id>7b2331691b633300b4648515ec4bcbcd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 19:57:17</sys_updated_on>
+        <sys_updated_on>2019-09-05 22:32:19</sys_updated_on>
         <value>&#13;
 try {&#13;
 (function parse(inputs, outputs) {&#13;
@@ -6327,7 +6327,7 @@ try {&#13;
     // outputs.targetObject.address.home.city = item.address.home.city;&#13;
 &#13;
     var item = JSON.parse(inputs.sourceItem);&#13;
-    outputs.targetObject.usersysid = item['user.value'];&#13;
+    outputs.targetObject.usersysid = item.user.value;&#13;
     outputs.targetObject.username = item['user.user_name'];&#13;
     outputs.targetObject.firstname = item['user.first_name'];&#13;
     outputs.targetObject.lastName = item['user.last_name'];&#13;

@@ -10,8 +10,8 @@
         <copied_from_name>coe - pull roles from instance</copied_from_name>
         <description>Pull all existings roles from a remote instance and insert them in a custom table on that local instance</description>
         <internal_name>coe___pull_roles_from_instance_ds</internal_name>
-        <label_cache>[{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role.description","label":"2➛role➛description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role.name","label":"2➛role➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"aa37b061-4352-436f-8d3c-83ebe0747bb3.table_name","label":"2.1.1➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"aa37b061-4352-436f-8d3c-83ebe0747bb3.record","label":"2.1.1➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"Updated_1.current.credentialalias","label":"Trigger➛coe global instances Record➛Credential Alias","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"credentialalias"},{"name":"Updated_1.current.sys_id","label":"Trigger➛coe global instances Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"sys_id"},{"name":"8e8e80db-9ed8-40a7-9694-46e360fc5878.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"8e8e80db-9ed8-40a7-9694-46e360fc5878.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current.active","label":"Trigger➛coe global instances Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"active"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"c63d1170-ff58-40ff-a5aa-cad4447a51df.payload","label":"2➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"Updated_1.table_name","label":"Trigger➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"table_name","base_type":"table_name"},{"name":"81ac38dc-7842-49a4-88cf-0db0dd6e2c8e.record","label":"3➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"81ac38dc-7842-49a4-88cf-0db0dd6e2c8e.table_name","label":"3➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"6b6dcfc1-9c05-4055-a795-b3054ef16237.record","label":"4➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"6b6dcfc1-9c05-4055-a795-b3054ef16237.table_name","label":"4➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"table_name","base_type":"table_name"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.response_headers","label":"2➛response_headers","reference_display":"response_headers","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.error_message","label":"2➛error_message","reference_display":"error_message","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.status_code","label":"2➛status_code","reference_display":"status_code","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.error_code","label":"2➛error_code","reference_display":"error_code","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.ds_output_page_variables","label":"2➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.ds_parsed_stream","label":"2➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.variable","label":"2➛instancesysid","reference_display":"instancesysid","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role","label":"2➛role","reference_display":"role","type":"object","base_type":"object"}]</label_cache>
-        <latest_snapshot>6e1987b11bef3300b4648515ec4bcbb1</latest_snapshot>
+        <label_cache>[{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role.description","label":"2➛role➛description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role.name","label":"8➛role➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"aa37b061-4352-436f-8d3c-83ebe0747bb3.table_name","label":"2.1.1➛coe global roles Table","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"table_name","base_type":"table_name"},{"name":"aa37b061-4352-436f-8d3c-83ebe0747bb3.record","label":"2.1.1➛coe global roles Record","reference":"x_snc_coe_global_r_coeroles","reference_display":"coe global roles","type":"reference","base_type":"reference"},{"name":"Updated_1.current.credentialalias","label":"Trigger➛coe global instances Record➛Credential Alias","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"credentialalias"},{"name":"Updated_1.current.sys_id","label":"Trigger➛coe global instances Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"sys_id"},{"name":"8e8e80db-9ed8-40a7-9694-46e360fc5878.record","label":"1➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"8e8e80db-9ed8-40a7-9694-46e360fc5878.table_name","label":"1➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current.active","label":"Trigger➛coe global instances Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"active"},{"name":"Updated_1.current.instancename","label":"Trigger➛coe global instances Record➛Instance Url","reference":"","reference_display":"Instance Url","type":"string","base_type":"string","parent_table_name":"x_snc_coe_global_r_coe_global_instances","column_name":"instancename"},{"name":"c63d1170-ff58-40ff-a5aa-cad4447a51df.payload","label":"2➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"Updated_1.current","label":"Trigger➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"Updated_1.table_name","label":"Trigger➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"table_name","base_type":"table_name"},{"name":"81ac38dc-7842-49a4-88cf-0db0dd6e2c8e.record","label":"3➛coe global trigger Record","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"reference","base_type":"reference"},{"name":"81ac38dc-7842-49a4-88cf-0db0dd6e2c8e.table_name","label":"3➛coe global trigger Table","reference":"x_snc_coe_global_r_coe_global_trigger","reference_display":"coe global trigger","type":"table_name","base_type":"table_name"},{"name":"6b6dcfc1-9c05-4055-a795-b3054ef16237.record","label":"4➛coe global instances Record","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"reference","base_type":"reference"},{"name":"6b6dcfc1-9c05-4055-a795-b3054ef16237.table_name","label":"4➛coe global instances Table","reference":"x_snc_coe_global_r_coe_global_instances","reference_display":"coe global instances","type":"table_name","base_type":"table_name"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.response_headers","label":"2➛response_headers","reference_display":"response_headers","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.error_message","label":"2➛error_message","reference_display":"error_message","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.status_code","label":"2➛status_code","reference_display":"status_code","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.error_code","label":"2➛error_code","reference_display":"error_code","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.ds_output_page_variables","label":"2➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.ds_parsed_stream","label":"2➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.variable","label":"2➛instancesysid","reference_display":"instancesysid","type":"string","base_type":"string"},{"name":"adf14049-46f0-4987-bb80-9099c4ab99d4.role","label":"2➛role","reference_display":"role","type":"object","base_type":"object"}]</label_cache>
+        <latest_snapshot>12c8bb191b333300b4648515ec4bcb78</latest_snapshot>
         <master_snapshot>24b416691be33300b4648515ec4bcbcc</master_snapshot>
         <name> coe  - pull roles from instance DS</name>
         <outputs/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>011356e51be33300b4648515ec4bcb71</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name> coe  - pull roles from instance DS</sys_name>
         <sys_overrides/>
         <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
@@ -35,15 +35,15 @@
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name>sys_hub_flow_011356e51be33300b4648515ec4bcb71</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=011356e51be33300b4648515ec4bcb71"/>
     <sys_variable_value action="delete_multiple" query="document_key=011356e51be33300b4648515ec4bcb71"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_coe_global_r_coe_global_instances">active=true^pullroles=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="pullroles" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <condition table="x_snc_coe_global_r_coe_global_instances">pullroles=true^active=true<item endquery="false" field="pullroles" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -59,11 +59,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a7f8c3b11bef3300b4648515ec4bcbfd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-05 18:50:30</sys_updated_on>
         <table>x_snc_coe_global_r_coe_global_instances</table>
     </sys_flow_record_trigger>
     <sys_hub_flow_component action="delete_multiple" query="flow=011356e51be33300b4648515ec4bcb71^sys_idNOT IN011356e51be33300b4648515ec4bcb83,0d1356e51be33300b4648515ec4bcb88,243496291be33300b4648515ec4bcbe0,4d1356e51be33300b4648515ec4bcb98,7b939ee51be33300b4648515ec4bcb01,835aee291b673300b4648515ec4bcbec"/>
@@ -82,10 +82,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>011356e51be33300b4648515ec4bcb83</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>8e8e80db-9ed8-40a7-9694-46e360fc5878</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=011356e51be33300b4648515ec4bcb83"/>
@@ -143,10 +143,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>0d1356e51be33300b4648515ec4bcb88</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>81ac38dc-7842-49a4-88cf-0db0dd6e2c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d1356e51be33300b4648515ec4bcb88"/>
@@ -230,10 +230,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:05:25</sys_created_on>
         <sys_id>243496291be33300b4648515ec4bcbe0</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>aa37b061-4352-436f-8d3c-83ebe0747bb3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=243496291be33300b4648515ec4bcbe0"/>
@@ -329,10 +329,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>4d1356e51be33300b4648515ec4bcb98</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>6b6dcfc1-9c05-4055-a795-b3054ef16237</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d1356e51be33300b4648515ec4bcb98"/>
@@ -416,10 +416,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:02:55</sys_created_on>
         <sys_id>7b939ee51be33300b4648515ec4bcb01</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>adf14049-46f0-4987-bb80-9099c4ab99d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b939ee51be33300b4648515ec4bcb01"/>
@@ -514,10 +514,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:15</sys_created_on>
         <sys_id>835aee291b673300b4648515ec4bcbec</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <ui_id>140b5094-6b9a-411e-bc1e-eb1b89c38ec4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -531,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:15</sys_created_on>
         <sys_id>c35aee291b673300b4648515ec4bcbee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 18:42:15</sys_updated_on>
-        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=</value>
+        <sys_updated_on>2019-09-09 16:01:09</sys_updated_on>
+        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=^{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=snc_internal</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=011356e51be33300b4648515ec4bcb71^sys_idNOT IN4d1356e51be33300b4648515ec4bcb9a"/>
@@ -547,10 +547,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>4d1356e51be33300b4648515ec4bcb9a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -579,10 +579,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>891356e51be33300b4648515ec4bcb9b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:13</sys_updated_on>
-        <value>active=true^pullroles=true</value>
+        <sys_updated_on>2019-09-05 18:50:15</sys_updated_on>
+        <value>pullroles=true^active=true</value>
         <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -593,9 +593,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>c51356e51be33300b4648515ec4bcb9b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 17:00:32</sys_updated_on>
+        <sys_updated_on>2019-09-05 21:35:07</sys_updated_on>
         <value>always</value>
         <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
     </sys_variable_value>
@@ -674,14 +674,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>851356e51be33300b4648515ec4bcb7b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -755,14 +755,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>cd1356e51be33300b4648515ec4bcb75</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -790,10 +790,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>011356e51be33300b4648515ec4bcb83</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>8e8e80db-9ed8-40a7-9694-46e360fc5878</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=011356e51be33300b4648515ec4bcb83"/>
@@ -851,10 +851,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>0d1356e51be33300b4648515ec4bcb88</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>81ac38dc-7842-49a4-88cf-0db0dd6e2c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d1356e51be33300b4648515ec4bcb88"/>
@@ -938,10 +938,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:05:25</sys_created_on>
         <sys_id>243496291be33300b4648515ec4bcbe0</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>aa37b061-4352-436f-8d3c-83ebe0747bb3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=243496291be33300b4648515ec4bcbe0"/>
@@ -1037,10 +1037,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:00:32</sys_created_on>
         <sys_id>4d1356e51be33300b4648515ec4bcb98</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>6b6dcfc1-9c05-4055-a795-b3054ef16237</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d1356e51be33300b4648515ec4bcb98"/>
@@ -1124,10 +1124,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:02:55</sys_created_on>
         <sys_id>7b939ee51be33300b4648515ec4bcb01</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:35:04</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:02:09</sys_updated_on>
         <ui_id>adf14049-46f0-4987-bb80-9099c4ab99d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b939ee51be33300b4648515ec4bcb01"/>
@@ -1223,10 +1223,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:15</sys_created_on>
         <sys_id>835aee291b673300b4648515ec4bcbec</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <ui_id>140b5094-6b9a-411e-bc1e-eb1b89c38ec4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1240,10 +1240,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:15</sys_created_on>
         <sys_id>c35aee291b673300b4648515ec4bcbee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 18:42:15</sys_updated_on>
-        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=</value>
+        <sys_updated_on>2019-09-09 16:01:09</sys_updated_on>
+        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=^{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=snc_internal</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_011356e51be33300b4648515ec4bcb71^sys_idNOT IN491356e51be33300b4648515ec4bcb7a,891356e51be33300b4648515ec4bcb7f"/>
@@ -1315,17 +1315,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e3f8c3b11bef3300b4648515ec4bcbfe","name":"plan"}}</plan>
         <plan_id>011356e51be33300b4648515ec4bcb71</plan_id>
-        <snapshot>6e1987b11bef3300b4648515ec4bcbb1</snapshot>
+        <snapshot>12c8bb191b333300b4648515ec4bcb78</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-29 15:34:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3f8c3b11bef3300b4648515ec4bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <trigger display_value="">a7f8c3b11bef3300b4648515ec4bcbfd</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1354,7 +1354,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>24b416691be33300b4648515ec4bcbcc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1362,7 +1362,7 @@
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=24b416691be33300b4648515ec4bcbcc"/>
@@ -1383,10 +1383,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>20b456691be33300b4648515ec4bcb0b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>adf14049-46f0-4987-bb80-9099c4ab99d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=20b456691be33300b4648515ec4bcb0b"/>
@@ -1442,10 +1442,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb02</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>8e8e80db-9ed8-40a7-9694-46e360fc5878</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb02"/>
@@ -1503,10 +1503,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb05</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>aa37b061-4352-436f-8d3c-83ebe0747bb3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb05"/>
@@ -1564,10 +1564,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb0e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>81ac38dc-7842-49a4-88cf-0db0dd6e2c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb0e"/>
@@ -1654,10 +1654,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:27</sys_created_on>
         <sys_id>3d6a62691b673300b4648515ec4bcb81</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>140b5094-6b9a-411e-bc1e-eb1b89c38ec4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1671,10 +1671,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:27</sys_created_on>
         <sys_id>316a62691b673300b4648515ec4bcb83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 18:42:27</sys_updated_on>
-        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=</value>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
+        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=^{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=snc_internal</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1692,10 +1692,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>e0b456691be33300b4648515ec4bcb1f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>6b6dcfc1-9c05-4055-a795-b3054ef16237</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0b456691be33300b4648515ec4bcb1f"/>
@@ -1774,10 +1774,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>e0b456691be33300b4648515ec4bcb21</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:19</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1792,10 +1792,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 17:07:36</sys_updated_on>
-        <value>active=true^pullroles=true</value>
+        <sys_updated_on>2019-09-05 18:50:29</sys_updated_on>
+        <value>pullroles=true^active=true</value>
         <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1806,9 +1806,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>68b456691be33300b4648515ec4bcb22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 17:07:36</sys_updated_on>
+        <sys_updated_on>2019-09-05 21:35:16</sys_updated_on>
         <value>always</value>
         <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
     </sys_variable_value>
@@ -1901,14 +1901,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>24b416691be33300b4648515ec4bcbce</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:33</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1982,14 +1982,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb416691be33300b4648515ec4bcbf7</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:33</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2017,10 +2017,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>20b456691be33300b4648515ec4bcb0b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>adf14049-46f0-4987-bb80-9099c4ab99d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=20b456691be33300b4648515ec4bcb0b"/>
@@ -2076,10 +2076,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb02</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>8e8e80db-9ed8-40a7-9694-46e360fc5878</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb02"/>
@@ -2137,10 +2137,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb05</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>aa37b061-4352-436f-8d3c-83ebe0747bb3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb05"/>
@@ -2198,10 +2198,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>2cb456691be33300b4648515ec4bcb0e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>81ac38dc-7842-49a4-88cf-0db0dd6e2c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb456691be33300b4648515ec4bcb0e"/>
@@ -2285,10 +2285,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 17:07:36</sys_created_on>
         <sys_id>e0b456691be33300b4648515ec4bcb1f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>6b6dcfc1-9c05-4055-a795-b3054ef16237</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0b456691be33300b4648515ec4bcb1f"/>
@@ -2376,10 +2376,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:27</sys_created_on>
         <sys_id>3d6a62691b673300b4648515ec4bcb81</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-29 15:34:34</sys_updated_on>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
         <ui_id>140b5094-6b9a-411e-bc1e-eb1b89c38ec4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2393,10 +2393,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-28 18:42:27</sys_created_on>
         <sys_id>316a62691b673300b4648515ec4bcb83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-28 18:42:27</sys_updated_on>
-        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=</value>
+        <sys_updated_on>2019-09-09 16:01:17</sys_updated_on>
+        <value>{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=^{{adf14049-46f0-4987-bb80-9099c4ab99d4.role.name}}!=snc_internal</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_24b416691be33300b4648515ec4bcbcc^sys_idNOT INa4b416691be33300b4648515ec4bcbd3,e8b416691be33300b4648515ec4bcbfc"/>

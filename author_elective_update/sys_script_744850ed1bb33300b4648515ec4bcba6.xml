@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_coe_global_r_coe_global_users</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>coe - Prevent insertion of dups in user </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var grUsr = new GlideRecord('x_snc_coe_global_r_coe_global_users');
+		grUsr.addQuery('usersysid', current.usersysid);
+		grUsr.addQuery('roles', current.roles);
+		grUsr.query();
+
+
+         if (grUsr.hasNext()) {
+
+
+                   current.setAbortAction(true);
+				
+
+                   gs.addInfoMessage("user with same role already exists in x_snc_coe_global_r_coe_global_users table ");
+
+
+         }         
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 18:30:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>744850ed1bb33300b4648515ec4bcba6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>coe - Prevent insertion of dups in user </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_update_name>sys_script_744850ed1bb33300b4648515ec4bcba6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 18:42:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=744850ed1bb33300b4648515ec4bcba6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</application>
+        <file_path/>
+        <instance_id>776d2093dbcbbf840ae3ac44d49619cd</instance_id>
+        <instance_name>dev91144</instance_name>
+        <name>sys_script_744850ed1bb33300b4648515ec4bcba6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_snc_coe_global_r_coe_global_users&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;coe - Prevent insertion of dups in user &lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var grUsr = new GlideRecord('x_snc_coe_global_r_coe_global_users');
+		grUsr.addQuery('usersysid', current.usersysid);
+		grUsr.addQuery('roles', current.roles);
+		grUsr.query();
+
+
+         if (grUsr.hasNext()) {
+
+
+                   current.setAbortAction(true);
+				
+
+                   gs.addInfoMessage("user with same role already exists in x_snc_coe_global_r_coe_global_users table ");
+
+
+         }         
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-09 18:30:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;744850ed1bb33300b4648515ec4bcba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;coe - Prevent insertion of dups in user &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="coe global report" source="x_snc_coe_global_r"&gt;0f2d6dccdb616300e1e8b701ef96196e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="coe global report"&gt;0f2d6dccdb616300e1e8b701ef96196e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_744850ed1bb33300b4648515ec4bcba6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-09 18:42:25&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=744850ed1bb33300b4648515ec4bcba6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2020588196</payload_hash>
+        <record_name>coe - Prevent insertion of dups in user </record_name>
+        <reverted_from/>
+        <source>41a060841b233300b4648515ec4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 18:42:25</sys_created_on>
+        <sys_id>4e7d18e11bf33300b4648515ec4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d17558ae60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 18:42:25</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>467d18e18ef3330063277d333e4eb3b4</update_guid>
+        <update_guid_history>467d18e18ef3330063277d333e4eb3b4:-2020588196,241d98e18df333003f911b55cb0c034b:1634438080,d30d58e12ef3330088a4cd4880bfa2dd:-726331121,0d8c90e101f333000187ba13529cdb47:1318678820,cd2c5ca168f333009d2cbdd49a66d86f:1473440853,46dbd4a168f33300e95ad80a343f66b8:1318678820,4ddad46189f333007f4fb21b36af8c7d:1473440853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 13:50:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>658048f0aebc4af8b33a84970b7dfb10</sys_id>
+        <sys_metadata>744850ed1bb33300b4648515ec4bcba6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coe - Prevent insertion of dups in user </sys_name>
+        <sys_package display_value="coe global report" source="x_snc_coe_global_r">0f2d6dccdb616300e1e8b701ef96196e</sys_package>
+        <sys_parent display_value="coe global users">125d2900dba16300e1e8b701ef96192b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="coe global report">0f2d6dccdb616300e1e8b701ef96196e</sys_scope>
+        <sys_scope_delete display_value="">2707b48fa4dd4bd4a2a305457911e790</sys_scope_delete>
+        <sys_update_name>sys_script_744850ed1bb33300b4648515ec4bcba6</sys_update_name>
+        <sys_update_version display_value="sys_script_744850ed1bb33300b4648515ec4bcba6">4e7d18e11bf33300b4648515ec4bcbb4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 13:50:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
